@@ -48,6 +48,41 @@ onlineSales.forEach(element => {
   totalCustomers += 1;
 });
 
+let ThirteenSale = 0;
+let FourteenSale = 0;
+let FifteenSale = 0;
+let SixteenSale = 0;
+let SeventeenSale = 0;
+
+onlineSales.forEach(element => {
+  switch (element.date.substr(element.date.length - 4)) {
+    case "2013":
+      ThirteenSale += 1;
+      break;
+    case "2014":
+      FourteenSale += 1;
+      break;
+    case "2015":
+      FifteenSale += 1;
+      break;
+    case "2016":
+      SixteenSale += 1;
+      break;
+    case "2017":
+      SeventeenSale += 1;
+      break;
+  }
+});
+
+let yearlyData = {
+  data: {
+    labels: ["2013", "2014", "2015", "2016", "2017"],
+    series: [
+      [ThirteenSale, FourteenSale, FifteenSale, SixteenSale, SeventeenSale]
+    ]
+  }
+};
+
 export default function Dashboard() {
   const classes = useStyles();
   // console.log(onlineSales);
@@ -185,15 +220,21 @@ export default function Dashboard() {
             <CardHeader color="danger">
               <ChartistGraph
                 className="ct-chart"
-                data={completedTasksChart.data}
+                data={yearlyData.data}
                 type="Line"
                 options={completedTasksChart.options}
                 listener={completedTasksChart.animation}
               />
             </CardHeader>
             <CardBody>
-              <h4 className={classes.cardTitle}>Completed Tasks</h4>
-              <p className={classes.cardCategory}>Last Campaign Performance</p>
+              <h4 className={classes.cardTitle}>Yearly Sales</h4>
+              <p className={classes.cardCategory}>
+                {" "}
+                <span className={classes.successText}>
+                  <ArrowUpward className={classes.upArrowCardCategory} /> 55%
+                </span>{" "}
+                increase in today sales.
+              </p>
             </CardBody>
             <CardFooter chart>
               <div className={classes.stats}>
