@@ -38,11 +38,19 @@ import {
 } from "variables/charts.js";
 
 import styles from "assets/jss/material-dashboard-react/views/dashboardStyle.js";
+import onlineSales from "/Users/erica/Desktop/material-dashboard-react-master/src/data/onlineSales.json";
 
 const useStyles = makeStyles(styles);
+let totalSales = 0;
+let totalCustomers = 0;
+onlineSales.forEach(element => {
+  totalSales += element.sales;
+  totalCustomers += 1;
+});
 
 export default function Dashboard() {
   const classes = useStyles();
+  // console.log(onlineSales);
   return (
     <div>
       <GridContainer>
@@ -75,8 +83,8 @@ export default function Dashboard() {
               <CardIcon color="success">
                 <Store />
               </CardIcon>
-              <p className={classes.cardCategory}>Revenue</p>
-              <h3 className={classes.cardTitle}>$34,245</h3>
+              <p className={classes.cardCategory}>Sales</p>
+              <h3 className={classes.cardTitle}>${Math.round(totalSales)}</h3>
             </CardHeader>
             <CardFooter stats>
               <div className={classes.stats}>
@@ -109,8 +117,8 @@ export default function Dashboard() {
               <CardIcon color="info">
                 <Accessibility />
               </CardIcon>
-              <p className={classes.cardCategory}>Followers</p>
-              <h3 className={classes.cardTitle}>+245</h3>
+              <p className={classes.cardCategory}>Total Customers</p>
+              <h3 className={classes.cardTitle}>{totalCustomers}</h3>
             </CardHeader>
             <CardFooter stats>
               <div className={classes.stats}>
