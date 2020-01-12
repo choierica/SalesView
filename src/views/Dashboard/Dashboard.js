@@ -68,6 +68,7 @@ class Dashboard extends React.Component {
     let typeOfCredits = 0;
     let items = new Set([]);
     let creditCards = new Set([]);
+    let stat = new Map([]);
 
     this.state.items.forEach(element => {
       totalSales += element.sales;
@@ -80,7 +81,27 @@ class Dashboard extends React.Component {
         creditCards.add(element["credit card"]);
         typeOfCredits++;
       }
+      if (stat.has(element["credit card"])) {
+        console.log("stepped inside");
+        let numCard = stat.get(element["credit card"]);
+        console.log(numCard);
+        numCard++;
+        stat.set(element["credit card"], numCard);
+      } else {
+        stat.set(element["credit card"], 1);
+      }
     });
+
+    console.log(stat);
+    let i = 1;
+    let tableStat = [];
+    const itr1 = stat.keys();
+    const itr2 = stat.values();
+    stat.forEach(elem => {
+      tableStat.push([itr1.next().value, itr2.next().value]);
+      i++;
+    });
+    console.log(tableStat);
 
     const classes = makeStyles(styles);
     return (
@@ -176,7 +197,9 @@ class Dashboard extends React.Component {
           <GridItem xs={12} sm={12}>
             <Card>
               <CardHeader color="info">
-                <h4 className={classes.cardTitleWhite}>Credit Card Statistics</h4>
+                <h4 className={classes.cardTitleWhite}>
+                  Credit Card Statistics
+                </h4>
                 <p className={classes.cardCategoryWhite}>
                   New employees on 15th September, 2016
                 </p>
@@ -184,13 +207,8 @@ class Dashboard extends React.Component {
               <CardBody>
                 <Table
                   tableHeaderColor="info"
-                  tableHead={["ID", "Name", "Country"]}
-                  tableData={[
-                    ["1", "Dakota Rice", "United State"],
-                    ["2", "Minerva Hooper", "Curaçao"],
-                    ["3", "Sage Rodriguez", "Netherlands"],
-                    ["4", "Philip Chaney", "Korea, South"]
-                  ]}
+                  tableHead={["Credit Card Company", "Frequency"]}
+                  tableData={tableStat}
                 />
               </CardBody>
             </Card>
