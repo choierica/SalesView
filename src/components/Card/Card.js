@@ -11,7 +11,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import styles from "assets/jss/material-dashboard-react/components/cardStyle.js";
 
 const useStyles = makeStyles(styles);
-
 export default function Card(props) {
   const classes = useStyles();
   const { className, children, plain, profile, chart, ...rest } = props;
