@@ -14,6 +14,8 @@ import Danger from "components/Typography/Danger.js";
 import Warning from "@material-ui/icons/Warning";
 import CardFooter from "components/Card/CardFooter.js";
 
+import Button from "@material-ui/core/Button";
+
 const styles = {
   cardCategoryWhite: {
     "&,& a,& a:hover,& a:focus": {
@@ -44,6 +46,9 @@ const styles = {
   },
   cardTextBlack: {
     color: "#000"
+  },
+  inputNone: {
+    display: "none"
   }
 };
 
@@ -65,6 +70,19 @@ export default function TableList() {
             <h3 className={(classes.cardTitle, classes.cardTextBlack)}>
               Online_sales.json
             </h3>
+
+            <label htmlFor="contained-button-file">
+              <Button variant="contained" color="primary" component="span">
+                Upload
+              </Button>
+              <input
+                accept="image/*"
+                className={classes.inputNone}
+                id="contained-button-file"
+                multiple
+                type="file"
+              />
+            </label>
           </CardHeader>
           <CardFooter stats>
             <div className={classes.stats}>
