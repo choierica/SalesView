@@ -64,41 +64,23 @@ class Dashboard extends React.Component {
   render() {
     let totalSales = 0;
     let totalCustomers = 0;
-    let ThirteenSale = 0;
-    let FourteenSale = 0;
-    let FifteenSale = 0;
-    let SixteenSale = 0;
-    let SeventeenSale = 0;
+    let typeOfItems = 0;
+    let typeOfCredits = 0;
+    let items = new Set([]);
+    let creditCards = new Set([]);
 
     this.state.items.forEach(element => {
       totalSales += element.sales;
       totalCustomers += 1;
-      switch (element.date.substr(element.date.length - 4)) {
-        case "2013":
-          ThirteenSale += 1;
-          break;
-        case "2014":
-          FourteenSale += 1;
-          break;
-        case "2015":
-          FifteenSale += 1;
-          break;
-        case "2016":
-          SixteenSale += 1;
-          break;
-        case "2017":
-          SeventeenSale += 1;
-          break;
+      if (!items.has(element.items)) {
+        items.add(element.items);
+        typeOfItems++;
+      }
+      if (!creditCards.has(element["credit card"])) {
+        creditCards.add(element["credit card"]);
+        typeOfCredits++;
       }
     });
-    const yearlyData = {
-      data: {
-        labels: ["2013", "2014", "2015", "2016", "2017"],
-        series: [
-          [ThirteenSale, FourteenSale, FifteenSale, SixteenSale, SeventeenSale]
-        ]
-      }
-    };
 
     const classes = makeStyles(styles);
     return (
@@ -110,19 +92,16 @@ class Dashboard extends React.Component {
                 <CardIcon color="warning">
                   <Icon>content_copy</Icon>
                 </CardIcon>
-                <p className={classes.cardCategory}>Used Space</p>
+                <p className={classes.cardCategory}>Type Of Products</p>
                 <h3 className={classes.cardTitle}>
-                  49/50 <small>GB</small>
+                  {typeOfItems}
+                  <small>types</small>
                 </h3>
               </CardHeader>
               <CardFooter stats>
                 <div className={classes.stats}>
-                  <Danger>
-                    <Warning />
-                  </Danger>
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
-                    Get more space
-                  </a>
+                  <Update />
+                  Just Updated
                 </div>
               </CardFooter>
             </Card>
@@ -138,8 +117,8 @@ class Dashboard extends React.Component {
               </CardHeader>
               <CardFooter stats>
                 <div className={classes.stats}>
-                  <DateRange />
-                  Last 24 Hours
+                  <Update />
+                  Just Updated
                 </div>
               </CardFooter>
             </Card>
@@ -150,13 +129,16 @@ class Dashboard extends React.Component {
                 <CardIcon color="danger">
                   <Icon>info_outline</Icon>
                 </CardIcon>
-                <p className={classes.cardCategory}>Fixed Issues</p>
-                <h3 className={classes.cardTitle}>75</h3>
+                <p className={classes.cardCategory}>Type of credit card</p>
+                <h3 className={classes.cardTitle}>
+                  {typeOfCredits}
+                  <small>types</small>
+                </h3>
               </CardHeader>
               <CardFooter stats>
                 <div className={classes.stats}>
-                  <LocalOffer />
-                  Tracked from Github
+                  <Update />
+                  Just Updated
                 </div>
               </CardFooter>
             </Card>
@@ -181,13 +163,13 @@ class Dashboard extends React.Component {
         </GridContainer>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
-            <SalesChart type = "Daily" data = {this.state.items}></SalesChart>
+            <SalesChart type="Daily" data={this.state.items}></SalesChart>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
-            <SalesChart type = "Monthly" data = {this.state.items}></SalesChart>
+            <SalesChart type="Monthly" data={this.state.items}></SalesChart>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
-            <SalesChart type = "Yearly" data = {this.state.items}></SalesChart>
+            <SalesChart type="Yearly" data={this.state.items}></SalesChart>
           </GridItem>
         </GridContainer>
         <GridContainer>
