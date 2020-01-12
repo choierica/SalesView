@@ -13,6 +13,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import styles from "assets/jss/material-dashboard-react/views/dashboardStyle.js";
 
 import ArrowUpward from "@material-ui/icons/ArrowUpward";
+import ArrowDownward from "@material-ui/icons/ArrowDownward";
 import { render } from "react-dom";
 
 
@@ -109,7 +110,7 @@ export default function DailySales(props) {
       top: 0,
       right: 0,
       bottom: 0,
-      left: 0
+      left: 15
     }
   };
 
@@ -148,14 +149,20 @@ export default function DailySales(props) {
   let color;
   let increase;
   let diffPercent;
+  let diffColor;
+  let arrow;
   if ( sales[sales.length - 1] < sales[sales.length - 2]){
     color = "warning";
     increase = " Decreased";
+    diffColor = classes.warningText;
     diffPercent = (sales[sales.length - 2] - sales[sales.length - 1]) * 100 / sales[sales.length - 2];
+    arrow = <ArrowDownward className={classes.upArrowCardCategory} />;
   } else{
     color = "success";
     increase = " Increased";
+    diffColor = classes.successText;
     diffPercent = (sales[sales.length - 1] - sales[sales.length - 2]) * 100 / sales[sales.length - 1];
+    arrow = <ArrowUpward className={classes.upArrowCardCategory} />;
   }
 
   return (
@@ -172,8 +179,8 @@ export default function DailySales(props) {
       <CardBody>
         <h4 className={classes.cardTitle}>{props.type} Sales</h4>
         <p className={classes.cardCategory}>
-          <span className={classes.successText}>
-            <ArrowUpward className={classes.upArrowCardCategory} /> {Math.round(diffPercent)}%
+          <span className={diffColor}>
+            {arrow} {Math.round(diffPercent)}%
           </span>
           {increase} in {props.type} sales.
         </p>
