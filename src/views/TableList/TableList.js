@@ -41,6 +41,9 @@ const styles = {
       fontWeight: "400",
       lineHeight: "1"
     }
+  },
+  cardTextBlack: {
+    color: "#000"
   }
 };
 
@@ -56,8 +59,12 @@ export default function TableList() {
             <CardIcon color="warning">
               <Icon>content_copy</Icon>
             </CardIcon>
-            <p className={classes.cardCategory}>Upload your file</p>
-            <h3 className={classes.cardTitle}>Online_sales.json</h3>
+            <p className={(classes.cardCategory, classes.cardTextBlack)}>
+              Upload your file
+            </p>
+            <h3 className={(classes.cardTitle, classes.cardTextBlack)}>
+              Online_sales.json
+            </h3>
           </CardHeader>
           <CardFooter stats>
             <div className={classes.stats}>
