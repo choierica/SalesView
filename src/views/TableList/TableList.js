@@ -14,6 +14,8 @@ import Danger from "components/Typography/Danger.js";
 import Warning from "@material-ui/icons/Warning";
 import CardFooter from "components/Card/CardFooter.js";
 
+import Button from "@material-ui/core/Button";
+
 const styles = {
   cardCategoryWhite: {
     "&,& a,& a:hover,& a:focus": {
@@ -42,8 +44,12 @@ const styles = {
       lineHeight: "1"
     }
   },
-  cardTextBlack: {
-    color: "#000"
+  inputNone: {
+    display: "none"
+  },
+  inputBuild: {
+    color: "#000",
+    textAlign: "left"
   }
 };
 
@@ -59,23 +65,26 @@ export default function TableList() {
             <CardIcon color="warning">
               <Icon>content_copy</Icon>
             </CardIcon>
-            <p className={(classes.cardCategory, classes.cardTextBlack)}>
+            <p className={(classes.cardCategory, classes.inputBuild)}>
               Upload your file
             </p>
-            <h3 className={(classes.cardTitle, classes.cardTextBlack)}>
-              Online_sales.json
+            <h3 className={(classes.cardTitle, classes.inputBuild)}>
+              <span>Online_sales.json&nbsp;</span>
+              <label htmlFor="contained-button-file">
+                <Button variant="contained" color="primary" component="span">
+                  Upload
+                </Button>
+                <input
+                  accept="image/*"
+                  className={classes.inputNone}
+                  id="contained-button-file"
+                  multiple
+                  type="file"
+                />
+              </label>
             </h3>
+            <br />
           </CardHeader>
-          <CardFooter stats>
-            <div className={classes.stats}>
-              <Danger>
-                <Warning />
-              </Danger>
-              <a href="#pablo" onClick={e => e.preventDefault()}>
-                Get more space
-              </a>
-            </div>
-          </CardFooter>
         </Card>
       </GridItem>
 
