@@ -83,7 +83,7 @@ export default function Admin({ ...rest }) {
     <div className={classes.wrapper}>
       <Sidebar
         routes={routes}
-        logoText={"Sales Talk"}
+        logoText={"Sales View"}
         logo={logo}
         image={image}
         handleDrawerToggle={handleDrawerToggle}
