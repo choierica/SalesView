@@ -201,7 +201,7 @@ class Dashboard extends React.Component {
                   Credit Card Statistics
                 </h4>
                 <p className={classes.cardCategoryWhite}>
-                  New employees on 15th September, 2016
+                  Credit Card Company and Frequency Information, Just Updated
                 </p>
               </CardHeader>
               <CardBody>
