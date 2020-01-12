@@ -1,0 +1,1001 @@
+date,items,sales,credit card,customer name,street address,state,country,ZIP code
+3/12/2014,Product 10,2548.86,maestro,Verna Twomey,8 Coolidge Alley,Illinois,United States,61656
+8/7/2015,Product 10,852.46,jcb,Misti Limeburn,964 Eliot Court,South Carolina,United States,29610
+9/17/2015,Product 1,116.79,diners-club-carte-blanche,Wilhelm Duiguid,16933 Paget Avenue,Arizona,United States,85010
+7/20/2014,Service 1,2202.6,instapayment,Rodney Heaford,5 1st Point,California,United States,94142
+5/9/2017,Product 9,2522.38,jcb,Idalina Kinglesyd,0511 Prairie Rose Circle,Pennsylvania,United States,19125
+1/19/2015,Service 2,390.31,jcb,Janene Rickford,8 Katie Parkway,Arizona,United States,85271
+7/19/2013,Product 10,2564.58,jcb,Chester Addicott,4153 Crownhardt Drive,Michigan,United States,49006
+9/20/2013,Product 8,3782.71,diners-club-enroute,Carri Waddilove,736 Fordem Plaza,New York,United States,10260
+2/10/2017,Product 2,2172.3,americanexpress,Hesther O'Dooghaine,99282 Katie Point,Arkansas,United States,72209
+9/29/2014,Product 3,4601.9,jcb,Devinne Fallon,221 Pawling Crossing,Florida,United States,33954
+2/27/2016,Product 8,990.08,mastercard,Richard Gheorghe,584 Stoughton Point,Virginia,United States,23436
+6/23/2017,Product 6,3747.39,jcb,Allina Gimbart,047 Forster Road,Iowa,United States,50369
+5/14/2017,Product 2,721.57,americanexpress,Michaela Lytle,722 Union Court,New York,United States,10009
+2/26/2016,Product 1,4139.13,mastercard,Aimee Banaszkiewicz,862 Donald Way,California,United States,95823
+12/25/2014,Product 8,2905.14,jcb,Kellby Bum,77 Hagan Junction,Maryland,United States,20816
+7/31/2013,Service 1,4236.53,jcb,Margaretha Cranstoun,38028 Mitchell Park,Illinois,United States,61605
+8/14/2013,Service 6,1650.79,jcb,Jay Hoofe,98174 Talisman Way,California,United States,92725
+4/17/2016,Product 2,2603.59,china-unionpay,Concettina Cartmale,252 Norway Maple Crossing,West Virginia,United States,25336
+3/24/2015,Product 5,2227.04,diners-club-us-ca,Grissel Maundrell,30111 Vidon Circle,Washington,United States,98140
+8/4/2014,Product 10,641.15,switch,Estel Folker,0340 Thompson Road,Kentucky,United States,40210
+8/12/2016,Service 1,1831.06,laser,Dona Frammingham,16137 Kim Road,California,United States,92160
+4/29/2017,Product 1,563.69,jcb,Chucho Zouch,0419 Dovetail Park,Washington,United States,99260
+9/16/2015,Service 3,3833.61,jcb,Ignacio McBride,58 Meadow Valley Drive,Georgia,United States,31205
+6/16/2016,Product 10,1434.36,jcb,Tiler Pattington,286 Di Loreto Crossing,North Dakota,United States,58207
+2/27/2017,Service 2,1757.09,jcb,Mariquilla Schonfeld,7120 Lien Lane,Kansas,United States,66642
+9/13/2014,Product 7,2160.31,jcb,Dorette Sunley,246 Merchant Alley,Texas,United States,79950
+4/14/2014,Product 2,4006.42,jcb,Keene Tyers,85637 Algoma Hill,Kentucky,United States,40515
+8/29/2013,Product 10,2159.5,jcb,Alfonse Rush,8358 Evergreen Drive,Georgia,United States,30033
+1/23/2016,Product 2,715.52,mastercard,Terri Firminger,46 Sage Circle,New York,United States,10039
+11/7/2016,Service 3,2745.59,china-unionpay,Gal Schutter,5 Holy Cross Trail,Texas,United States,78778
+5/7/2014,Product 9,4517.46,china-unionpay,Jsandye Millmoe,5 Grim Way,Florida,United States,33175
+8/22/2014,Service 3,1543.45,jcb,Hetty Tidbold,9575 New Castle Avenue,New York,United States,10459
+8/23/2016,Product 2,3574.22,laser,Chrystal Dullard,6 Waxwing Junction,California,United States,94177
+3/4/2014,Product 1,3695.32,laser,Leta Hoyland,9 Thierer Alley,Texas,United States,88541
+9/8/2013,Product 8,2153.69,maestro,Tann Richings,14807 Shoshone Place,Arizona,United States,85015
+11/1/2014,Product 3,1319.49,jcb,Martita Nicolls,86986 Iowa Lane,Alabama,United States,35225
+7/2/2016,Product 6,1024.25,bankcard,Jessey Abbess,4 Roxbury Road,Florida,United States,32964
+7/23/2014,Product 3,3079.77,jcb,Modestine Doblin,8 Crest Line Hill,Ohio,United States,45208
+8/12/2016,Product 5,4132.4,maestro,Konstantine Hansmann,7812 Carey Hill,District of Columbia,United States,20010
+2/22/2016,Product 3,4959.31,solo,Matthus Ellins,1245 Sutherland Road,Colorado,United States,80217
+2/5/2014,Service 1,4266.86,jcb,Nehemiah Broadbent,50742 Cottonwood Point,Tennessee,United States,38168
+12/11/2016,Product 10,3031.56,maestro,Carlynn Wigmore,4 Village Center,Virginia,United States,23293
+12/17/2014,Product 6,1097.82,jcb,Tito Taysbil,41 Wayridge Circle,Missouri,United States,65805
+5/22/2016,Product 9,125.43,mastercard,Anna-diana Jatczak,068 Linden Pass,California,United States,95064
+12/25/2013,Product 5,3778.14,diners-club-carte-blanche,Frederic Allder,438 Bluestem Circle,California,United States,91125
+10/13/2013,Product 4,2697.33,switch,Carlota Stalley,8 John Wall Parkway,Illinois,United States,60630
+3/4/2015,Product 9,4584.98,jcb,Ethelin Klosges,9 Mccormick Place,Tennessee,United States,37914
+11/12/2013,Service 2,4775.6,jcb,Blair Motton,69211 Columbus Point,California,United States,94132
+5/23/2016,Product 6,3198.14,jcb,Jeni Clooney,3420 Stephen Trail,Massachusetts,United States,1114
+12/18/2014,Product 4,3662.91,china-unionpay,Karalynn Wesley,3748 Almo Hill,New York,United States,10270
+4/14/2016,Service 5,4665.7,switch,Gisele Boatright,22 Scoville Trail,Florida,United States,34276
+12/22/2013,Service 2,4603.21,visa-electron,Brianna Petrak,86673 Monterey Pass,Texas,United States,78721
+10/23/2014,Service 1,214.08,jcb,Freddie Geist,7 Steensland Circle,District of Columbia,United States,20557
+1/6/2015,Product 9,4643.26,mastercard,Mildrid Blonden,235 Hanover Circle,Alabama,United States,35263
+6/8/2016,Product 1,1341.42,diners-club-carte-blanche,Odelle Kleinerman,96050 Schmedeman Lane,Delaware,United States,19892
+6/11/2014,Service 1,3559.52,jcb,Hamlen Pinyon,35 Summit Terrace,Minnesota,United States,55458
+9/19/2015,Product 4,520.93,jcb,Guendolen Gatty,21642 School Street,Ohio,United States,43210
+11/19/2016,Service 2,51.96,jcb,Merrie Start,525 Tony Road,California,United States,90810
+11/5/2013,Service 5,2544.52,jcb,Starlin Cashley,91 Carberry Way,Florida,United States,33615
+3/4/2014,Product 5,3210.22,jcb,Tabor Lintot,69920 Burning Wood Street,New York,United States,13251
+11/4/2016,Product 6,963.16,jcb,Herculie Cressy,6 Mcguire Court,Texas,United States,79905
+7/22/2015,Product 4,2888.14,visa,Meara Peetermann,17 Dottie Court,South Carolina,United States,29225
+1/9/2016,Product 4,4372.76,jcb,Amberly Pray,54 Iowa Terrace,Missouri,United States,63169
+4/8/2015,Product 3,2955.16,jcb,Bonnie Kasperski,04758 Mariners Cove Lane,North Carolina,United States,27105
+8/3/2016,Product 7,3072.33,visa-electron,Brewer Tomaskunas,7 Shasta Court,Arizona,United States,85040
+9/8/2016,Product 1,3492.23,diners-club-enroute,Peta Joel,9213 Maywood Pass,Texas,United States,77090
+4/5/2016,Product 2,3495.66,jcb,Neille Bettridge,58747 Goodland Junction,Florida,United States,32209
+6/3/2016,Product 8,3661.7,jcb,Ode Gamage,1325 Green Ridge Lane,New York,United States,12325
+11/13/2016,Product 6,3335.67,jcb,Saxon Trimbey,05 Mesta Crossing,Oregon,United States,97206
+11/26/2013,Product 9,435.36,china-unionpay,Townie Enriquez,61415 Jenifer Alley,Mississippi,United States,39204
+1/29/2015,Product 5,4203.54,jcb,Sharai Brimmicombe,2671 Lukken Pass,Pennsylvania,United States,19184
+2/15/2014,Service 6,88.94,jcb,Rabbi Chartman,6 Independence Point,Oklahoma,United States,73142
+3/24/2017,Product 8,4024.72,diners-club-international,Lorena Basnett,9848 Linden Park,New Mexico,United States,87195
+6/17/2017,Product 4,1901.48,visa-electron,Chris Willavoys,151 Garrison Terrace,Kentucky,United States,40505
+3/23/2015,Service 4,476.26,jcb,Darsey Sine,52 Shasta Junction,Georgia,United States,30911
+6/21/2015,Service 3,2342.59,jcb,Melita Stooke,3 Manitowish Terrace,Virginia,United States,23260
+10/24/2016,Service 5,3109.11,jcb,Felipa Mcwhinnie,003 Garrison Avenue,Texas,United States,78465
+1/28/2017,Service 3,289.3,jcb,Jolynn Standage,053 Granby Terrace,South Carolina,United States,29424
+5/23/2016,Service 4,3537.59,instapayment,Nikos Kindley,6 Knutson Circle,Illinois,United States,62525
+4/9/2017,Product 2,2765.34,jcb,Cornela Lorraine,18159 Hauk Pass,Kentucky,United States,40581
+2/27/2016,Service 6,2259.13,americanexpress,Wendie McElrath,78890 Almo Park,Louisiana,United States,70815
+4/17/2014,Service 5,4243.41,jcb,Jeanna Mor,14 Pond Junction,Nebraska,United States,68134
+8/1/2016,Product 3,4072.31,mastercard,Querida Fourcade,7 Stang Pass,Virginia,United States,22212
+10/8/2013,Product 5,134.42,jcb,Emilee Melby,8 Donald Avenue,New Jersey,United States,7188
+5/5/2017,Product 9,1452.06,mastercard,Monika Mensler,011 Kropf Junction,Nevada,United States,89706
+3/25/2015,Service 3,111.82,jcb,Faith Hannent,56600 Waxwing Trail,New Mexico,United States,87190
+4/28/2017,Service 2,2391.57,mastercard,Dur Dews,46733 Sauthoff Parkway,Arizona,United States,85015
+6/23/2017,Service 3,744.18,bankcard,Lindi Greg,7076 Lawn Court,District of Columbia,United States,20508
+12/12/2015,Product 5,381.77,switch,Ninnetta Prewett,64162 Everett Alley,Washington,United States,99260
+8/1/2016,Product 2,3996.47,jcb,Ivan Kleinplac,8956 2nd Point,Florida,United States,33625
+10/31/2015,Product 2,2568.77,diners-club-carte-blanche,Mariya Scadding,785 Oakridge Place,Colorado,United States,80209
+11/18/2013,Service 2,975.56,visa-electron,Porter Nock,7915 Oak Valley Place,Texas,United States,88525
+5/3/2016,Product 4,4490.87,solo,Toiboid Hair,21 Mccormick Road,Oklahoma,United States,74170
+10/3/2015,Product 5,973.01,jcb,Cissy Stitt,3711 Weeping Birch Pass,Texas,United States,75392
+1/16/2014,Product 7,1347.07,china-unionpay,Lynelle Corsar,5281 Main Circle,Florida,United States,32118
+4/9/2015,Product 1,2465.96,mastercard,Charmion Razzell,81185 Lillian Junction,South Dakota,United States,57188
+11/30/2013,Product 6,2059.41,diners-club-us-ca,Ferd Jahnisch,9 Caliangt Street,Illinois,United States,61110
+10/17/2014,Product 1,343.76,instapayment,Ronda Castagneto,1 Kennedy Place,Colorado,United States,80299
+3/22/2015,Product 9,3890.44,jcb,Dill Dominicacci,93 Harper Road,Connecticut,United States,6705
+3/12/2015,Product 2,2973.6,maestro,Wandie Casari,8 Blaine Plaza,Florida,United States,33731
+5/5/2017,Service 2,4787.87,jcb,Nickie Baldinotti,6 Gerald Circle,Texas,United States,77299
+12/9/2015,Product 3,2799.32,visa-electron,Theo Pettiward,84 Dapin Street,Washington,United States,98498
+5/7/2015,Service 5,1531.82,mastercard,Deloris de Guerre,421 Spohn Center,Nevada,United States,89166
+6/23/2017,Service 4,2644.53,americanexpress,Karlene Faux,06834 Bobwhite Terrace,South Carolina,United States,29615
+5/30/2017,Product 6,1282.38,maestro,Melba Paladino,26880 Thierer Pass,New York,United States,13217
+9/6/2015,Product 10,44.99,jcb,Kamillah Kither,26 Bayside Trail,West Virginia,United States,25716
+12/23/2015,Service 6,1068.31,jcb,Danielle Welds,4146 Katie Avenue,Texas,United States,77080
+2/3/2014,Service 4,2526.2,maestro,Klement Keel,059 Swallow Plaza,Connecticut,United States,6721
+3/3/2017,Product 7,2872.09,visa-electron,Dora Hedgeley,38 Continental Drive,District of Columbia,United States,20425
+8/8/2014,Product 10,4917.05,jcb,Lars Ferrillo,431 Golden Leaf Circle,New York,United States,10474
+11/6/2015,Product 3,228.08,mastercard,Brett Huortic,69 Clarendon Pass,Ohio,United States,45440
+2/2/2017,Service 4,2792.13,jcb,Eryn Truder,81 Linden Center,Kansas,United States,66210
+4/15/2017,Product 1,3661.77,switch,Ally Cawthry,5 Oxford Street,Texas,United States,88546
+9/20/2013,Product 8,1102.61,instapayment,Aubine Wicken,9930 Gerald Lane,Mississippi,United States,39204
+8/9/2016,Service 5,2605.36,jcb,Pier Klimpke,2179 Jana Junction,Texas,United States,76305
+7/12/2015,Product 5,1777.91,diners-club-enroute,Emlyn McDermot,55 Lake View Road,California,United States,93773
+4/23/2017,Service 6,4437.24,bankcard,Laurel Jakubowicz,917 Superior Park,Hawaii,United States,96845
+11/11/2014,Service 2,3120.47,maestro,Faustine Ottery,86 Pankratz Park,California,United States,95833
+1/4/2014,Product 3,2935.29,instapayment,Vicky Lomb,285 David Terrace,New York,United States,10115
+1/11/2017,Product 9,3414.81,mastercard,Kendre Emerine,5 Tennessee Terrace,Texas,United States,79984
+6/18/2017,Product 8,4934.3,visa-electron,Quentin Worsalls,3982 7th Hill,Georgia,United States,30375
+10/18/2013,Service 2,1470.16,mastercard,Zachary Isham,5664 Green Place,West Virginia,United States,25331
+4/11/2016,Service 3,2684.75,jcb,Roshelle Mathevet,92992 Maywood Circle,Michigan,United States,48211
+1/18/2015,Service 1,1708.83,jcb,Xenos Sired,09201 Gateway Crossing,Texas,United States,88553
+2/3/2017,Product 9,995.84,jcb,Gena Ingleston,7403 American Ash Way,Florida,United States,33915
+6/29/2016,Service 3,972.65,jcb,Pamella McInulty,2204 Meadow Ridge Junction,Florida,United States,34642
+10/13/2013,Service 4,2300.64,jcb,Evangelin Iddens,8 Bultman Way,Illinois,United States,60078
+12/17/2016,Service 1,3420.8,bankcard,Stephana Croster,5 Manufacturers Circle,Virginia,United States,23293
+12/2/2013,Product 10,3816.34,mastercard,Pace Collingdon,34 Bashford Hill,South Dakota,United States,57198
+1/27/2014,Service 6,3172,jcb,Garvin Kingsford,577 Florence Trail,New Mexico,United States,87140
+6/18/2017,Service 3,1977.89,mastercard,Amalee Scarlon,9 Maywood Avenue,Virginia,United States,24048
+5/24/2016,Service 4,1595.28,diners-club-enroute,Hashim Margaret,9 Forest Dale Way,Alaska,United States,99812
+1/9/2015,Product 4,4286.26,visa-electron,Raynard Gammidge,23791 Crescent Oaks Drive,New York,United States,10310
+5/8/2016,Service 2,4161.11,jcb,Mignon Ibbeson,69760 Cambridge Parkway,Kentucky,United States,40515
+12/27/2013,Service 5,4135.58,jcb,Ev Anneslie,82906 Jackson Alley,Texas,United States,76505
+9/19/2014,Product 3,2911.19,diners-club-carte-blanche,Terrell Panther,52357 Hooker Street,California,United States,94257
+10/16/2016,Product 6,4522.6,diners-club-enroute,Tommy Piggens,75344 Thompson Hill,Maryland,United States,21405
+7/9/2013,Product 1,1912.57,jcb,Quill Bontein,76594 Raven Avenue,North Carolina,United States,27110
+12/14/2014,Service 1,2180.86,bankcard,Quinlan Grimoldby,804 Bayside Circle,Oklahoma,United States,73034
+1/12/2014,Product 3,4275.53,americanexpress,Andriette Cavaney,33801 Dayton Circle,Alabama,United States,35295
+4/21/2014,Product 5,439.88,jcb,Chickie Poynser,43325 Pierstorff Crossing,Texas,United States,78291
+11/2/2016,Product 6,2122.9,jcb,Kelcey Ashburner,40490 Meadow Vale Drive,Texas,United States,76096
+8/16/2016,Product 8,1701.95,maestro,Ingrid Saurat,58480 Kim Parkway,Alaska,United States,99790
+1/3/2014,Product 2,525.7,jcb,Fianna Bletsor,62831 Del Sol Plaza,Alabama,United States,36109
+11/20/2014,Product 8,717.94,mastercard,Dom Marjot,58 Vahlen Pass,West Virginia,United States,25775
+3/14/2016,Service 6,399.2,jcb,Merna Senechault,41 Sycamore Crossing,Georgia,United States,31136
+1/23/2017,Service 3,2702.65,jcb,Dex Raynton,8758 Hovde Center,District of Columbia,United States,20016
+6/5/2015,Service 6,4398.36,maestro,Spense Vannoni,826 Warrior Point,Massachusetts,United States,2745
+1/1/2014,Product 4,2996.21,instapayment,Selby Pearson,8 Southridge Crossing,Oklahoma,United States,73135
+7/5/2015,Product 6,4239.88,mastercard,Issie Fritter,6589 Warner Place,Indiana,United States,46620
+9/6/2014,Service 6,4804.36,jcb,Timmie Storry,57 Southridge Alley,Kentucky,United States,40524
+12/10/2015,Service 4,1189.04,diners-club-enroute,Jacob Entreis,18109 Vermont Pass,Illinois,United States,60604
+8/2/2013,Service 4,585.66,visa,Irita Pedrazzi,2 Barby Hill,Illinois,United States,62525
+6/2/2014,Product 5,498.06,americanexpress,Nanny Rampton,041 Daystar Drive,Florida,United States,33411
+4/15/2016,Product 1,2549.85,mastercard,Rubin Oddey,8 Grayhawk Terrace,District of Columbia,United States,20067
+1/25/2017,Product 1,4026.19,diners-club-carte-blanche,Meta Wrankmore,3 Luster Parkway,California,United States,90505
+9/9/2016,Product 2,4854.23,jcb,Kristofer Elden,06 Troy Lane,Texas,United States,75705
+3/31/2014,Product 2,2486.03,americanexpress,Lelia Cahey,4 Gale Way,Texas,United States,75387
+8/4/2013,Product 4,1710.27,jcb,Corri Panton,1 Waxwing Park,Ohio,United States,45020
+9/19/2014,Product 6,224.96,jcb,Georges Urquhart,55 International Crossing,Texas,United States,78789
+9/30/2015,Service 2,1059.92,jcb,Editha Chicco,195 Hanover Terrace,California,United States,94273
+10/26/2014,Product 9,3396.78,jcb,Dulce Masterton,6 Alpine Pass,California,United States,92170
+7/22/2013,Product 3,509.32,jcb,Abbye Peschet,55551 Towne Avenue,Texas,United States,75216
+4/25/2016,Product 4,1784.74,laser,Brewster Braniff,99 Hagan Point,New York,United States,12255
+1/4/2014,Product 8,3243.09,jcb,Cleavland Elner,7 Schlimgen Junction,Texas,United States,78235
+4/14/2016,Product 4,473.29,jcb,Leora Lowers,81217 Cottonwood Hill,Michigan,United States,48956
+9/5/2016,Service 4,875.78,visa-electron,Mufi Satterley,5 Red Cloud Avenue,District of Columbia,United States,20099
+3/30/2016,Product 4,1305.14,mastercard,Cacilia Tabord,5348 Vahlen Crossing,Pennsylvania,United States,19605
+6/22/2015,Service 4,4696.14,jcb,Donetta Westcar,6 Arkansas Place,California,United States,94207
+5/24/2014,Product 6,3847.28,jcb,Franchot Vaughton,7 Everett Trail,California,United States,91797
+8/5/2016,Service 6,4208.8,jcb,Agnesse Turnell,4099 Luster Plaza,Florida,United States,33994
+7/26/2016,Service 4,4568.4,jcb,Joy Witcomb,982 Karstens Center,Florida,United States,33737
+6/28/2017,Product 10,1394.27,americanexpress,Elisabeth Richemond,35182 High Crossing Junction,Texas,United States,78764
+4/22/2014,Product 7,378.29,jcb,Halley Bromage,18 Grover Parkway,Virginia,United States,23289
+11/12/2015,Product 3,3032.07,jcb,Ryon Montier,43 Burrows Avenue,Utah,United States,84135
+6/19/2017,Service 4,3644.21,maestro,Ephrem Warlawe,2 Charing Cross Court,California,United States,92668
+7/5/2013,Product 8,653.62,visa-electron,Jessika Deverson,9592 Spohn Circle,Georgia,United States,30336
+7/30/2016,Product 3,1469.19,jcb,Alice Whelpdale,67719 Warbler Drive,New York,United States,10120
+11/22/2015,Product 10,1618.35,switch,Minnnie Geard,813 Meadow Vale Plaza,Georgia,United States,30092
+7/22/2014,Product 3,2030.96,americanexpress,Nicholle Wheeldon,16 Summit Point,Colorado,United States,80940
+2/25/2014,Service 5,4641.14,jcb,Gill Bucknall,785 Randy Junction,Colorado,United States,80525
+7/21/2013,Product 1,507.58,china-unionpay,Tawsha Biskup,71883 Graceland Park,New York,United States,12325
+3/21/2016,Product 10,3440.52,instapayment,Elton Wandless,412 Express Park,New York,United States,10165
+5/27/2015,Product 4,4497.14,jcb,Samuele Pashley,1858 Butternut Court,Florida,United States,32605
+2/10/2016,Product 2,4157.14,jcb,Jerri Geeves,32 Summer Ridge Drive,Texas,United States,75353
+7/23/2014,Product 1,4026.62,jcb,Berke Tommasuzzi,43 Dwight Center,Missouri,United States,63104
+1/1/2015,Product 6,835.44,jcb,Farlee Kays,21 Dahle Circle,Florida,United States,32526
+1/2/2016,Product 2,857.34,visa-electron,Arnuad Bridden,9950 Hovde Parkway,Oklahoma,United States,73190
+3/28/2015,Product 3,259.55,diners-club-enroute,Sigismundo McIver,1621 Nobel Road,Virginia,United States,24048
+4/7/2014,Service 5,1664.83,mastercard,Tremayne Shapcott,7027 Barnett Park,Michigan,United States,48098
+6/5/2017,Service 1,4758.12,switch,Dimitri Gouldstraw,3 Graceland Pass,Texas,United States,76544
+1/25/2016,Product 6,2792.16,jcb,Caresa Siggin,73 Ridgeview Road,Colorado,United States,80279
+5/3/2014,Service 1,4905.71,americanexpress,Adamo Blazewicz,8 Packers Street,Missouri,United States,64187
+8/7/2013,Service 1,2357.97,jcb,Camella McLoughlin,70595 Portage Terrace,Florida,United States,33811
+5/5/2015,Product 10,2202.25,jcb,Vidovic Coste,6 6th Plaza,Arizona,United States,85035
+7/22/2016,Service 3,3262.68,americanexpress,Birgitta Vasile,2092 Elmside Road,Alabama,United States,35254
+8/1/2014,Service 2,231.2,laser,Dynah Badger,0 International Terrace,Ohio,United States,44393
+11/26/2013,Service 4,1866.95,maestro,Brandea McKinlay,3 Scoville Street,Florida,United States,32092
+1/1/2015,Product 2,3857.28,jcb,Jodi Lamdin,29733 Towne Place,Texas,United States,79984
+2/24/2017,Service 1,400.49,maestro,Jenilee Greeves,2073 Emmet Trail,Ohio,United States,44555
+10/5/2014,Service 3,2588.38,bankcard,Asa Draijer,22 Sommers Circle,Illinois,United States,60646
+11/18/2015,Product 9,3996.34,diners-club-carte-blanche,Abey Izkoveski,20645 Golf View Junction,Florida,United States,32813
+3/19/2015,Service 1,2631.84,visa,Lyndsey Mathwin,432 Carey Street,New Jersey,United States,8922
+5/19/2014,Service 1,123.82,diners-club-enroute,Roch Reville,290 Hagan Place,Nevada,United States,89510
+8/17/2015,Service 1,3895.02,switch,Reba Simmance,2840 Karstens Court,Illinois,United States,61709
+5/19/2017,Product 8,2065.59,jcb,Gearalt Snasel,39450 Thompson Street,Louisiana,United States,70005
+3/9/2016,Product 8,1274.88,jcb,Gerard Abramovic,2 Bobwhite Parkway,Kentucky,United States,40293
+8/7/2013,Service 2,4180.44,jcb,Amanda Silkston,474 Hoffman Street,Tennessee,United States,37240
+3/31/2014,Service 3,1389.7,jcb,Bianka Lichfield,6 Porter Drive,Ohio,United States,44485
+3/22/2015,Product 7,3960.85,visa-electron,Lynnea Christoffersen,0189 Springview Way,Illinois,United States,60697
+9/10/2014,Product 6,2184.61,jcb,Adi Antonik,2895 Buena Vista Center,New York,United States,10557
+10/29/2013,Product 10,674.34,diners-club-us-ca,Griselda Bruck,7 David Center,Kansas,United States,66642
+7/23/2014,Service 5,877.35,solo,Elihu Du Hamel,86679 Basil Court,Massachusetts,United States,2203
+8/24/2015,Service 5,4818.13,jcb,Verine Jakubski,28 Kensington Point,Colorado,United States,81505
+8/29/2015,Service 2,471.74,jcb,Godart Coils,0 Bowman Street,Colorado,United States,80127
+7/20/2016,Product 2,1311.14,instapayment,Beverley Ferrer,497 8th Junction,Idaho,United States,83727
+8/5/2013,Product 6,3813.26,jcb,Alia Crews,909 Kedzie Point,North Dakota,United States,58106
+7/23/2014,Service 3,2187.32,bankcard,Udell Uccelli,35464 Mariners Cove Parkway,Alabama,United States,35295
+3/26/2016,Product 5,1715.49,instapayment,Douglas Cufflin,89084 Lunder Terrace,Texas,United States,88584
+10/7/2016,Product 8,4087.15,jcb,Jorrie Pattini,2 Northland Park,Ohio,United States,44393
+8/24/2015,Service 4,3430.95,americanexpress,Hy Chadwen,342 Talmadge Trail,Minnesota,United States,55487
+9/21/2015,Product 9,2754.06,jcb,Jennica Winn,55219 Farwell Park,New York,United States,14604
+11/8/2014,Product 8,2457.33,americanexpress,Nalani Blemen,46 New Castle Street,Michigan,United States,49018
+7/10/2016,Product 9,3447.43,jcb,Lief Bromehed,138 Porter Point,North Carolina,United States,27626
+5/9/2014,Product 3,3733.48,americanexpress,Ashlee Blaasch,658 7th Drive,District of Columbia,United States,20404
+4/2/2014,Product 1,922.27,visa,Marc Shalders,971 Monica Alley,New York,United States,10249
+11/11/2016,Product 10,3381.04,jcb,Ase Bonnett,3247 Towne Drive,Texas,United States,76129
+7/29/2014,Service 5,918.77,maestro,Terencio Hunnywell,817 Menomonie Hill,Kentucky,United States,40510
+1/4/2014,Product 9,1694.7,diners-club-carte-blanche,Papageno Bourley,6672 Doe Crossing Road,Kentucky,United States,41905
+1/13/2017,Product 4,3625.58,solo,Ealasaid Grooby,3545 Mayer Plaza,Louisiana,United States,71307
+4/11/2014,Product 1,325.52,jcb,Kerry Uc,4 Village Green Circle,New Mexico,United States,87180
+8/30/2016,Product 1,4630.4,jcb,Morgun Calbert,05083 Lighthouse Bay Street,Texas,United States,75246
+8/19/2015,Product 3,1986.48,jcb,Hazel Lamke,5877 Cambridge Terrace,Texas,United States,79699
+9/18/2013,Service 6,3623.94,visa-electron,Dulcia Vallance,1 Ruskin Alley,California,United States,91606
+12/25/2016,Service 1,188.76,americanexpress,Gavan Boam,3249 Mallory Crossing,Nevada,United States,89012
+12/14/2013,Product 1,1992.39,jcb,See Dosdell,30258 Little Fleur Alley,Florida,United States,34620
+3/2/2016,Service 5,1631.44,diners-club-enroute,Christopher Lethbrig,30270 Fieldstone Parkway,Tennessee,United States,37410
+8/24/2016,Product 8,2144.37,maestro,Killie Wortman,36500 Dexter Place,Ohio,United States,45254
+12/28/2016,Product 6,3955.72,americanexpress,Tate Portail,5327 Schlimgen Hill,Arkansas,United States,72209
+3/12/2016,Product 5,4166.68,visa-electron,Lorette Tytcomb,317 Straubel Junction,Texas,United States,77343
+8/11/2014,Product 6,4235.11,diners-club-enroute,Joyann Perring,3 Monument Alley,Texas,United States,76134
+3/28/2015,Service 5,3181.35,bankcard,Licha Ferrandez,679 Upham Court,District of Columbia,United States,20231
+1/10/2017,Product 6,4029.32,jcb,Fowler Crole,2781 Kennedy Point,Colorado,United States,80945
+1/5/2014,Product 3,3266.38,jcb,Thomasin Roscher,9 Hermina Lane,Ohio,United States,45432
+3/23/2015,Service 4,2145.26,jcb,Michaela Sivorn,136 Independence Trail,Illinois,United States,60691
+12/10/2015,Product 10,319.46,jcb,Justino Geekin,80094 Spenser Park,North Carolina,United States,28263
+3/27/2016,Product 2,1400.27,visa-electron,Nonie Skitterel,10 Dawn Road,Minnesota,United States,55123
+10/20/2015,Service 5,1760.36,maestro,Radcliffe Gilliland,88 Lerdahl Center,Michigan,United States,49006
+11/28/2014,Product 5,4524.22,mastercard,Pattie Hoyte,450 Norway Maple Court,Texas,United States,77705
+11/17/2013,Product 3,369.29,jcb,Delmar Youell,7388 Grasskamp Parkway,California,United States,90025
+1/28/2014,Service 4,1216.12,diners-club-carte-blanche,Lanae Okie,84107 Hudson Circle,Indiana,United States,46247
+6/4/2017,Product 4,2564.93,jcb,Vivyanne Twigge,736 Ryan Parkway,California,United States,94605
+1/31/2016,Product 5,2594.2,jcb,Sutherland Bartomieu,60616 Dorton Place,Georgia,United States,31165
+5/5/2015,Product 1,3725.05,instapayment,Lydia Jowling,2043 Oak Point,Pennsylvania,United States,19172
+7/15/2016,Product 8,1911.35,visa,Iolanthe Buttress,79729 Grasskamp Plaza,Michigan,United States,48206
+6/27/2017,Service 5,4443.38,mastercard,Linn Garthside,8377 Burning Wood Court,California,United States,93407
+2/19/2017,Product 6,3380.97,americanexpress,Tresa Beilby,67018 Southridge Way,California,United States,90305
+12/13/2016,Service 4,2475.72,jcb,Glen Barmby,6 Alpine Junction,Florida,United States,34981
+11/22/2015,Product 4,3565.04,jcb,Damien Vowell,69686 Vernon Lane,Washington,United States,98447
+6/17/2016,Product 2,653.38,jcb,Vernor Finn,1156 Dayton Circle,New York,United States,13251
+12/27/2015,Service 3,3929.19,jcb,Riccardo Ivanishev,8 Scott Junction,District of Columbia,United States,20575
+1/26/2016,Product 1,4723.06,diners-club-carte-blanche,Debi Headford,70 Waywood Trail,Illinois,United States,62723
+5/11/2014,Service 2,80.05,china-unionpay,Ophelie Andree,312 Melody Park,Nevada,United States,89166
+2/24/2017,Product 2,1275.26,diners-club-enroute,Mercedes Attride,598 East Center,Maine,United States,4109
+2/6/2016,Product 4,1585.65,jcb,Brod Gebbe,51 Golf Street,Alabama,United States,35895
+2/23/2017,Product 2,213.78,visa,Melania O'Loghlen,81171 Michigan Drive,Washington,United States,98506
+5/3/2016,Product 1,349.61,jcb,Gilli Hinkensen,70 Green Ridge Junction,Connecticut,United States,6520
+4/6/2015,Product 8,4326.21,jcb,Eran Rey,26182 Westerfield Parkway,Maryland,United States,20883
+7/2/2016,Product 1,3732.01,jcb,Edik Sultan,0762 Loftsgordon Street,Illinois,United States,61709
+1/5/2015,Service 3,2985.66,solo,Blinny Doughton,5 Loftsgordon Crossing,New York,United States,14652
+10/17/2013,Product 6,1187.79,bankcard,Theo Gusticke,72322 Warrior Pass,Georgia,United States,30096
+9/9/2016,Service 5,67.46,bankcard,Tuesday Bunten,241 Clemons Parkway,Texas,United States,76210
+1/5/2016,Product 3,3363.26,mastercard,Cornelius Viveash,02 Holmberg Way,Washington,United States,99260
+2/12/2015,Service 1,4439.67,mastercard,Caty Tubritt,61200 Trailsway Alley,California,United States,91520
+5/3/2015,Product 6,712.67,bankcard,Ronnie Chown,07261 Waxwing Place,North Carolina,United States,27150
+10/13/2016,Product 1,1212.44,jcb,Wrennie Gammett,51 Forest Dale Circle,California,United States,95298
+9/25/2014,Product 6,38.26,mastercard,Kristan Widmoor,4176 Nevada Lane,Georgia,United States,30343
+8/28/2014,Service 2,1996.87,jcb,Lina Glynne,95 Coolidge Place,Illinois,United States,60193
+11/11/2015,Service 1,198.12,diners-club-us-ca,Burtie Pellett,40162 Nelson Place,Alabama,United States,35225
+5/14/2015,Product 5,1860.38,switch,Wynnie Maryet,2 Memorial Lane,Ohio,United States,44485
+2/8/2015,Service 4,242.35,maestro,Merilyn Selby,571 Petterle Lane,Illinois,United States,61110
+10/19/2013,Service 6,1684.56,americanexpress,Arnie Wiffen,97 Spohn Alley,Minnesota,United States,55188
+6/24/2016,Service 4,2269.46,switch,Lucais Fabb,368 Monterey Pass,Arizona,United States,85010
+2/15/2016,Service 6,2262.88,americanexpress,Ernestus Littrick,65 Everett Pass,Nebraska,United States,68531
+1/11/2014,Service 3,532.57,visa-electron,Fernando Pinchin,1444 Reindahl Park,New York,United States,14652
+9/14/2013,Product 10,4454.86,jcb,Juliana Haughian,211 Rutledge Terrace,Florida,United States,34949
+12/15/2015,Product 6,2290.87,jcb,Cristina Feldstein,000 Judy Way,Florida,United States,33805
+5/18/2016,Product 6,50.95,jcb,Bay Suddell,80 Forest Dale Center,Texas,United States,78764
+4/24/2017,Service 1,98.61,jcb,Geneva Bordis,64 Bay Way,Wisconsin,United States,53790
+7/3/2014,Service 5,1968.01,jcb,Konrad oldey,3756 Melrose Way,District of Columbia,United States,20404
+12/29/2014,Product 3,4644.4,diners-club-carte-blanche,Augusto Longo,57 Blue Bill Park Pass,California,United States,94177
+2/13/2014,Product 5,3726.25,jcb,Jillian Domel,1 Everett Court,New York,United States,12242
+1/16/2016,Service 3,4246.9,jcb,Menard Varvell,16124 Katie Crossing,California,United States,90030
+11/12/2015,Service 2,2597.49,maestro,Guillemette Nottingam,0 Graedel Drive,Georgia,United States,31416
+10/28/2014,Service 4,4565.27,bankcard,Inez Clabburn,588 Lyons Hill,Illinois,United States,60435
+7/6/2013,Service 6,826.61,jcb,Appolonia Gamlin,1597 Hanover Parkway,District of Columbia,United States,20430
+6/20/2015,Service 4,2135.43,switch,Ammamaria Nolleau,628 Graceland Parkway,Alabama,United States,35215
+2/25/2016,Product 6,2748.72,mastercard,Brucie Osmond,91 Delaware Drive,Texas,United States,77554
+2/2/2017,Product 3,1137.34,mastercard,Freedman Goggey,81628 Mcguire Point,California,United States,92867
+2/20/2016,Service 2,1932.53,diners-club-enroute,Bradly Refford,2 Welch Circle,North Carolina,United States,27110
+12/25/2014,Product 1,3934.54,switch,Brandais Slessar,757 Springs Way,Florida,United States,34745
+6/19/2017,Product 1,3533.92,bankcard,Manny MacClinton,39 Dovetail Trail,California,United States,90081
+12/18/2013,Product 10,1607.54,jcb,Alecia Matson,603 Lillian Crossing,California,United States,92110
+7/21/2015,Product 6,2578.75,jcb,Woodie Manderson,491 Troy Court,Michigan,United States,48335
+8/18/2014,Product 2,4820.31,mastercard,Hughie Eddies,83 Monument Park,Texas,United States,78265
+5/11/2014,Product 10,1665.46,bankcard,Giffer Hamman,84 Eastlawn Parkway,Colorado,United States,81010
+11/2/2016,Product 3,944.68,solo,Charlotta Cuerda,61 Ridgeview Center,Minnesota,United States,55123
+2/14/2015,Service 5,3576.38,jcb,Grete Chismon,8 Grover Terrace,Arkansas,United States,71914
+9/15/2014,Product 1,2973.89,mastercard,Bradan Benge,91550 Pearson Lane,Florida,United States,34474
+10/11/2013,Product 5,626.67,jcb,Tanya Mosco,33017 Prairie Rose Place,Kentucky,United States,40546
+4/25/2017,Service 4,4775.63,americanexpress,Codi Sentance,1883 Thompson Trail,Florida,United States,32813
+7/9/2016,Service 1,4679.79,laser,Reider MacCook,55451 Corben Lane,Georgia,United States,30245
+5/13/2015,Service 3,1475.58,americanexpress,Torey Shrubshall,1 Upham Place,California,United States,93762
+10/5/2015,Service 4,2779.51,diners-club-enroute,Ardelle Gwyn,95565 Lerdahl Road,New York,United States,11388
+5/9/2017,Service 4,321.18,jcb,Chlo McKendo,73624 Tennyson Parkway,California,United States,95123
+10/4/2014,Product 5,4794.51,visa,Kelvin Swanborrow,6581 Lillian Street,North Carolina,United States,27717
+2/2/2015,Product 1,3799.86,jcb,Bordy Allmond,6588 Sunbrook Point,Michigan,United States,48092
+6/21/2015,Product 2,1884.44,maestro,Joel Hawton,46538 Bluejay Drive,North Carolina,United States,27150
+12/24/2013,Service 1,156.48,jcb,Leslie Cocci,5 Almo Avenue,Tennessee,United States,37245
+5/1/2014,Product 9,3364.52,jcb,Charita Quinnell,9 Havey Drive,Florida,United States,34981
+7/19/2015,Product 4,1868.74,mastercard,Bron Curtayne,62509 Amoth Parkway,Texas,United States,79165
+4/28/2015,Product 7,1588.09,china-unionpay,Esta Rabbet,3668 Sloan Center,Texas,United States,76110
+1/14/2017,Product 1,4625.73,instapayment,Marlena Purveys,514 Eagle Crest Hill,Pennsylvania,United States,15250
+4/13/2017,Service 4,481.44,visa-electron,Giuditta Tzarkov,90648 Logan Road,Alabama,United States,36628
+4/9/2015,Service 2,4125.62,china-unionpay,Billy Boldock,86396 Ridgeview Park,Washington,United States,98506
+6/25/2016,Product 2,1792.58,bankcard,Tammy Blazey,87 Main Road,Virginia,United States,22244
+4/11/2015,Service 1,1911.62,jcb,Bert Hierro,86023 Westend Terrace,Alabama,United States,36177
+3/13/2016,Service 5,1908.59,jcb,Darcy Antrobus,500 Bobwhite Circle,Washington,United States,98140
+9/15/2013,Product 2,2771.03,jcb,Calla D'Onisi,288 Gale Center,Kentucky,United States,40591
+5/2/2016,Product 3,2381.96,bankcard,Geoff Crumpton,80 Heath Trail,California,United States,95354
+8/3/2016,Service 4,122.23,jcb,Alexine Trewett,81 Jay Junction,Florida,United States,34620
+8/1/2016,Service 6,1582.26,instapayment,Jermain Linning,04793 7th Street,Louisiana,United States,71213
+3/26/2016,Service 2,322.42,instapayment,Trueman Sansbury,367 Prairieview Hill,California,United States,91505
+8/5/2015,Product 4,2939.41,jcb,Cristiano Clac,4 Fremont Parkway,Nevada,United States,89150
+7/13/2013,Product 6,2503.9,switch,Berry Alywin,025 Briar Crest Circle,Oregon,United States,97405
+1/21/2014,Service 1,3098.68,solo,Eduino Stelfax,43 Thompson Court,Missouri,United States,64130
+10/9/2013,Product 7,4436.53,mastercard,Scotti Hanssmann,253 Johnson Lane,Texas,United States,79989
+12/8/2014,Service 6,3679.34,visa,Lissa McParland,96 Hagan Center,Ohio,United States,43231
+5/25/2016,Product 4,336.14,diners-club-carte-blanche,Charlean Rachuig,40484 Toban Way,California,United States,95852
+10/23/2014,Product 2,887.85,visa-electron,Karrie Olivelli,5 Mcguire Place,Wisconsin,United States,53210
+12/28/2013,Service 3,3489.15,jcb,Alyson Binton,929 American Ash Center,North Dakota,United States,58505
+6/13/2014,Product 6,2391.81,maestro,Lina Sherrin,590 Oneill Place,Indiana,United States,46867
+12/8/2015,Product 6,4114.59,jcb,Gaye Nussii,7 Almo Center,New York,United States,11215
+8/16/2014,Product 1,3525.88,jcb,Charlot Tourle,03 Victoria Parkway,Texas,United States,79977
+9/15/2015,Product 3,2914.92,mastercard,Daniel Olkowicz,612 Thackeray Drive,Georgia,United States,31205
+9/16/2016,Service 1,2228.27,visa-electron,Ilene Gilgryst,07453 Nelson Park,New York,United States,14269
+9/20/2015,Service 6,3380.72,visa,Clarke Perfect,90 Delladonna Plaza,Virginia,United States,23237
+5/17/2017,Product 3,574.55,mastercard,Max Beecham,2 Straubel Drive,Georgia,United States,31217
+11/26/2015,Service 3,4993.29,jcb,Alon Hylton,964 Stuart Street,Indiana,United States,46254
+12/30/2015,Service 4,4067.74,jcb,Morna Gerrad,457 Delaware Hill,New York,United States,11225
+12/8/2015,Service 5,396.45,jcb,Dan Garrettson,3341 Nelson Point,North Carolina,United States,27105
+5/13/2016,Product 5,941.48,diners-club-enroute,Patin Pigford,193 Declaration Junction,Hawaii,United States,96805
+4/19/2017,Product 1,3567.05,diners-club-international,Terrill Daughtery,819 Express Crossing,South Carolina,United States,29805
+4/2/2015,Service 3,780.97,jcb,Imojean Haughian,6 Butterfield Center,Maine,United States,4109
+3/15/2016,Service 1,1520.98,jcb,Bar Marchington,00047 Petterle Court,California,United States,92127
+7/17/2016,Product 5,4301.71,maestro,Amanda Creed,9 Pierstorff Plaza,Florida,United States,33134
+1/18/2017,Product 9,3598.47,jcb,Deb Iorio,7 Tony Hill,Texas,United States,79165
+8/2/2013,Product 10,3075.72,jcb,Corbet Harkess,375 Stuart Hill,Utah,United States,84189
+2/17/2017,Product 5,1302.34,mastercard,Rodolph Pimme,92 Florence Drive,Pennsylvania,United States,15134
+8/23/2013,Service 2,2074.92,laser,Elwin Saffle,25 Larry Alley,Texas,United States,76147
+2/11/2016,Product 2,495.18,laser,Sophronia Threader,16 Scoville Park,Illinois,United States,60652
+2/17/2015,Product 1,354.86,mastercard,Cicely Hastilow,991 Bowman Hill,District of Columbia,United States,20231
+9/27/2013,Product 4,3671.36,jcb,Adriana Tschierasche,1 Ridge Oak Trail,Colorado,United States,80015
+6/28/2017,Product 2,1693.11,jcb,Stormy Chesney,341 Elmside Circle,Iowa,United States,50320
+9/12/2014,Service 2,2107.16,diners-club-enroute,Randolf Crone,46517 Stoughton Drive,California,United States,90847
+12/7/2014,Service 2,4504.04,jcb,Malachi Withrop,32494 Mallory Terrace,Louisiana,United States,71105
+1/22/2017,Service 3,3302.96,jcb,Vale Tristram,403 Erie Pass,Texas,United States,79182
+10/8/2014,Product 1,2988.49,visa-electron,Laryssa MacRannell,5 Lawn Park,Oregon,United States,97211
+9/21/2013,Product 5,2373.87,instapayment,Berti Gaye,91352 Londonderry Point,Kentucky,United States,40205
+6/25/2017,Service 3,4712.8,maestro,Ruthe Matskiv,57119 Vermont Point,Wisconsin,United States,53285
+11/1/2016,Product 9,495.25,laser,Templeton Slides,20291 Elka Parkway,Michigan,United States,48206
+5/19/2014,Product 5,2614.01,jcb,Randene Ghelerdini,2629 Bunker Hill Avenue,District of Columbia,United States,20409
+7/26/2015,Product 4,3118.01,jcb,Griffy Greatrex,8 Sheridan Terrace,District of Columbia,United States,20210
+5/15/2016,Service 4,3381.02,visa,Kacie Loadsman,75192 Doe Crossing Pass,Nevada,United States,89150
+6/9/2016,Product 2,3471.01,china-unionpay,Hillery Swait,319 Golf Course Center,New York,United States,14210
+4/6/2016,Service 6,4321.3,americanexpress,Alaster Reide,36 Clove Point,Texas,United States,78737
+9/18/2015,Service 5,4842.94,jcb,Jae Plaister,12406 Larry Park,Arizona,United States,85732
+6/2/2014,Service 5,2927.49,diners-club-us-ca,Brit Summerley,1044 Merchant Alley,New York,United States,10633
+3/1/2016,Service 5,187.36,jcb,Reggy Larman,20700 Manitowish Alley,Louisiana,United States,70124
+1/11/2017,Product 9,464.32,jcb,Griffie Bosquet,044 Donald Terrace,Washington,United States,98506
+10/18/2016,Service 4,3612.18,jcb,Ambrosio Christopher,46430 Thackeray Drive,Connecticut,United States,6105
+9/6/2014,Product 8,3935.24,bankcard,Emelina Jackson,3 Sunbrook Pass,Florida,United States,32123
+7/22/2015,Product 7,1924.8,diners-club-enroute,Glen Summerbell,90703 Scott Center,Massachusetts,United States,2283
+12/24/2013,Product 4,3591.96,bankcard,Dudley Dilks,3819 Shoshone Drive,California,United States,94975
+4/21/2016,Product 9,1712.42,instapayment,Mil Ortas,41 Knutson Trail,Georgia,United States,31914
+12/6/2013,Product 7,2405.08,jcb,Isobel McNeill,8 Badeau Place,Georgia,United States,30306
+3/5/2015,Service 1,4217.88,jcb,Yuma Gabb,6340 Tennyson Road,Illinois,United States,60078
+5/1/2015,Service 2,956.29,solo,Patrick Gaish,8 Coleman Point,New Mexico,United States,87110
+7/18/2014,Service 4,1533.82,jcb,Susannah Diggles,0891 Troy Hill,Texas,United States,75379
+4/15/2017,Product 4,877.22,bankcard,Gavra Wyndham,1 Blaine Place,North Carolina,United States,27409
+10/30/2016,Service 6,1414.28,americanexpress,Scott Harty,5947 Laurel Crossing,New York,United States,14683
+12/27/2013,Service 5,180.02,jcb,Christy Di Bartolomeo,5 Morrow Avenue,California,United States,95823
+11/5/2015,Product 9,1164.46,diners-club-carte-blanche,Alfonso Aloigi,78 Meadow Vale Road,Kansas,United States,66225
+3/30/2014,Service 1,1164.58,jcb,Brucie Tydeman,9206 School Place,Texas,United States,77240
+5/22/2017,Service 5,3119.88,jcb,Korrie Lempertz,186 Merry Lane,Hawaii,United States,96815
+6/3/2017,Product 3,1560.08,jcb,Carver Colles,53547 Hauk Terrace,Indiana,United States,47747
+8/15/2015,Product 10,1386.54,diners-club-carte-blanche,Valentina Garrow,4 Anthes Plaza,Virginia,United States,22119
+8/7/2015,Service 3,1112.75,jcb,Samantha MacPherson,58840 Bunting Parkway,Illinois,United States,61105
+3/22/2016,Service 1,1330.02,switch,Baryram Gile,9784 Anthes Place,Pennsylvania,United States,15210
+10/9/2015,Product 6,1190.42,laser,Sutherland Edgson,429 Ridge Oak Hill,Florida,United States,33731
+10/2/2013,Service 3,2837.38,switch,Inness Bernardotti,89 Maywood Way,Colorado,United States,80270
+11/26/2015,Product 4,2976.84,bankcard,Olga Woodger,993 Pennsylvania Park,Arizona,United States,85219
+4/11/2014,Product 8,1879.39,china-unionpay,Glenine Gerritzen,5 Coolidge Street,Pennsylvania,United States,15220
+11/13/2013,Service 5,1697.16,diners-club-enroute,Lorrayne Garth,6 Hauk Center,New York,United States,10120
+6/12/2015,Product 9,4640.15,mastercard,Isidora Ianetti,1 Kedzie Avenue,Connecticut,United States,6152
+2/28/2017,Product 9,720.35,laser,Evelyn Mantrup,326 Moulton Trail,New York,United States,10115
+6/6/2014,Service 2,3580.48,jcb,Whitney Mockes,29719 Ohio Center,Mississippi,United States,39216
+9/3/2015,Product 8,3162.39,diners-club-carte-blanche,Aldrich Kilduff,8 Dawn Park,Illinois,United States,60609
+10/13/2016,Service 5,3367.21,jcb,Sue Robins,7351 Schlimgen Point,Florida,United States,33777
+8/26/2013,Product 1,2685.18,jcb,Perl O'Bruen,884 Shelley Road,Nevada,United States,89140
+3/24/2016,Product 7,4614.68,visa-electron,Grantham Garlick,6 Mallory Avenue,Florida,United States,33811
+3/9/2016,Product 1,2780.66,mastercard,Silvio Cardenosa,0 Straubel Point,New Jersey,United States,7104
+1/8/2017,Product 6,4600.7,jcb,Rosene Lytle,9340 Boyd Road,Iowa,United States,52410
+11/22/2014,Service 6,908.8,visa-electron,Kalli Hartin,9376 Birchwood Center,District of Columbia,United States,20392
+9/19/2015,Product 8,4094.1,jcb,Cynthie Pearson,26213 Crest Line Crossing,California,United States,90030
+10/21/2013,Product 5,1512.33,jcb,Matthieu Husband,9545 Anniversary Way,California,United States,95118
+4/9/2016,Service 2,1796.44,jcb,Alistair Mackieson,90303 Boyd Plaza,Alabama,United States,36670
+4/26/2015,Service 2,3787.83,jcb,Nicolis Tunnicliffe,077 Stone Corner Court,Missouri,United States,63167
+7/24/2013,Product 3,4378.34,bankcard,Zorine Laxton,8 Welch Center,Arizona,United States,85743
+8/15/2016,Service 6,792.2,jcb,Yetta Ephson,07042 Fisk Road,Utah,United States,84409
+10/15/2015,Product 1,275.91,china-unionpay,Lindsey Hutchison,7262 Lukken Point,Texas,United States,75605
+9/4/2014,Product 7,1969.46,jcb,Leonie Jent,09 Parkside Street,Florida,United States,33499
+7/26/2014,Service 1,1965.46,mastercard,Enrique Kirrage,542 Namekagon Trail,Arizona,United States,85040
+7/10/2016,Product 1,4960.4,china-unionpay,Guillaume Claque,99662 Longview Plaza,District of Columbia,United States,20022
+9/17/2016,Service 1,2393.28,jcb,Grazia Skone,258 Sachtjen Street,Oklahoma,United States,73142
+1/7/2017,Service 5,2004.24,diners-club-carte-blanche,Jeana Sanford,752 Warbler Pass,California,United States,95160
+8/17/2015,Service 3,1488.75,diners-club-enroute,Cherrita Dimanche,2 Dawn Lane,District of Columbia,United States,20337
+1/30/2016,Product 4,1259.34,mastercard,June Wisby,96 Fisk Place,Texas,United States,79171
+9/27/2014,Product 3,3260.95,china-unionpay,Jazmin Lemmers,3746 Oak Court,Michigan,United States,48670
+12/4/2016,Service 5,3277.62,americanexpress,Cesya Somerled,081 Bowman Point,Georgia,United States,30605
+7/18/2016,Service 6,2924.27,mastercard,Hyacinthe Cartmer,6739 Green Parkway,Minnesota,United States,55573
+9/26/2016,Service 1,3765.42,solo,Ive McPheat,93 Village Way,Alaska,United States,99812
+5/4/2017,Product 2,1502.09,jcb,Allissa Groveham,15106 West Crossing,California,United States,92705
+8/20/2015,Product 3,4817.55,maestro,Maggy Billham,709 Susan Lane,Florida,United States,33543
+8/23/2016,Product 3,1155.55,americanexpress,Allie Pealing,860 Meadow Ridge Center,Texas,United States,75185
+8/12/2014,Service 3,217.46,jcb,Etheline Friend,81120 Anniversary Lane,Oregon,United States,97206
+9/7/2013,Product 7,740.74,jcb,Sax Gorrie,131 Mayfield Circle,Louisiana,United States,70149
+1/17/2016,Product 4,1271.96,diners-club-carte-blanche,Jannel O'Deegan,9630 Spohn Crossing,New Jersey,United States,7305
+7/26/2016,Service 2,948.06,diners-club-carte-blanche,Welsh Windaybank,0 Kinsman Crossing,Utah,United States,84140
+5/4/2014,Service 2,1621.91,jcb,Jennee Seacombe,9 Stephen Way,District of Columbia,United States,20530
+12/22/2014,Product 2,69.77,jcb,Raquel Robertsson,20785 Pleasure Hill,Pennsylvania,United States,19172
+7/11/2013,Service 5,2550.81,maestro,Niki Defew,335 Lunder Junction,New York,United States,10160
+1/17/2015,Product 9,2536.57,laser,Sonny Eckley,8 Paget Hill,California,United States,90087
+9/23/2014,Product 3,3221.85,switch,Dorena Trewin,38438 Esch Pass,Ohio,United States,43220
+7/16/2015,Product 2,1669.44,mastercard,Beck Logue,5228 Caliangt Park,South Carolina,United States,29416
+10/26/2014,Product 7,2341.92,maestro,Baillie Greatorex,9 Hanover Court,Virginia,United States,22093
+6/10/2014,Product 1,4087.39,jcb,Latashia Jovicic,4 Evergreen Lane,Texas,United States,78682
+5/20/2017,Service 4,3075,china-unionpay,Poppy Eynald,63704 Prairieview Park,Florida,United States,32964
+8/18/2014,Service 3,376.62,jcb,Gustavo Shackelton,8 Everett Court,Florida,United States,34629
+11/7/2013,Service 1,221.44,diners-club-carte-blanche,Jessamine Gazey,2797 Farwell Alley,Nevada,United States,89160
+4/29/2015,Service 2,3101.35,instapayment,Alyssa Attfield,715 Pearson Junction,New Jersey,United States,8104
+6/15/2017,Product 1,4104.8,jcb,Brandyn Tangye,02594 Kingsford Court,New York,United States,10184
+8/10/2016,Product 4,2130.37,jcb,Angelle Creber,4 Scofield Court,California,United States,92424
+4/14/2015,Service 6,1278.76,laser,Tailor MacGillacolm,340 Judy Trail,Maryland,United States,21684
+1/24/2014,Product 7,4056.27,diners-club-carte-blanche,Lil Oglethorpe,0853 Forest Run Road,Florida,United States,33158
+2/7/2015,Product 10,2371.36,diners-club-international,Abel Culmer,1533 Dawn Plaza,Georgia,United States,30195
+8/29/2015,Service 3,4648.61,bankcard,Stillmann Minker,10 Stang Alley,Ohio,United States,44305
+8/29/2015,Service 3,3630.61,visa,Persis Petriello,924 Dixon Avenue,Connecticut,United States,6905
+3/21/2014,Service 4,2793.12,mastercard,Maryann Seadon,0530 New Castle Junction,California,United States,90605
+6/16/2014,Product 7,1742.94,china-unionpay,Dominik Vasiliu,760 Morning Point,Ohio,United States,44505
+7/9/2015,Product 7,374.44,diners-club-us-ca,Pauline Foulser,36 Golf View Road,Washington,United States,98447
+7/14/2015,Product 8,2727.03,jcb,Kimmie Eddowis,3 Pennsylvania Crossing,Illinois,United States,60604
+5/24/2015,Service 5,3060.86,jcb,Wilone Crowson,1703 Sutherland Circle,Washington,United States,98417
+5/27/2014,Product 3,2062.39,maestro,Shane Leroy,653 Sundown Road,Louisiana,United States,70179
+4/5/2016,Product 1,4289.66,mastercard,Charlean Giacovetti,6 Becker Place,Florida,United States,34282
+11/24/2013,Product 3,4522.19,switch,Alethea Trench,28846 Starling Avenue,Florida,United States,34949
+12/4/2016,Product 3,3370.63,jcb,Phoebe Gauson,6 Victoria Junction,Illinois,United States,60697
+8/22/2015,Product 4,3399.2,diners-club-enroute,Quincey Isenor,8488 Fair Oaks Street,Kentucky,United States,40596
+7/25/2013,Product 2,1323.75,jcb,Pancho Sheryn,84607 Garrison Center,Oklahoma,United States,73173
+2/19/2014,Product 2,402.41,jcb,Deina Arzu,4 Vahlen Street,Pennsylvania,United States,19172
+4/18/2017,Product 5,3718.71,jcb,Junia Millsom,048 Cardinal Circle,New York,United States,14905
+10/7/2015,Product 5,1037.16,jcb,Layton Brafferton,21 Springs Alley,Florida,United States,33141
+4/1/2015,Product 8,3938.7,solo,Cybill Caine,1417 Westridge Pass,Georgia,United States,31165
+12/5/2015,Service 4,232.31,jcb,Tiebout Bissell,213 Golf View Way,Colorado,United States,80255
+2/9/2014,Product 1,4443.41,mastercard,Marcellus Tulloch,000 Bluejay Place,Louisiana,United States,70124
+11/6/2013,Product 10,3672.42,instapayment,Eberto Drowsfield,62875 Cottonwood Alley,Ohio,United States,43635
+5/17/2017,Service 2,1241.12,bankcard,Melissa Mumford,859 Dawn Pass,Wisconsin,United States,53215
+7/15/2014,Service 6,3396.77,china-unionpay,Marlon Pepin,780 Sachtjen Junction,Illinois,United States,60624
+3/14/2017,Service 4,4717.44,jcb,Dominick Le Estut,0 Longview Crossing,Florida,United States,33185
+4/4/2017,Product 6,246.44,mastercard,Alden Piscopiello,2178 Northwestern Drive,California,United States,95173
+10/22/2013,Product 5,2586.51,mastercard,Pru Cooke,66984 Esch Alley,Missouri,United States,64125
+1/9/2015,Product 6,4744.32,maestro,Richmound Kemme,17 Claremont Lane,New Jersey,United States,7544
+1/6/2016,Product 6,534.59,diners-club-enroute,Norma Mathivet,8835 Montana Plaza,Texas,United States,76598
+7/15/2014,Product 10,4639.65,jcb,Vince Robjohns,0 Fairfield Parkway,New York,United States,10110
+7/22/2015,Service 4,1716.29,jcb,Lindy Hoyle,62 Sage Pass,Louisiana,United States,71307
+2/1/2016,Product 9,3054.89,maestro,Dag Folcarelli,5 Sloan Court,North Dakota,United States,58106
+12/30/2014,Product 1,1614.98,switch,Torrie Hilbourne,8 Haas Plaza,Florida,United States,34135
+4/26/2017,Service 4,1130.57,diners-club-enroute,Bea Boxhall,312 Eagle Crest Terrace,Virginia,United States,23471
+2/18/2017,Product 7,3166.24,jcb,Gilly Kalaher,4868 Evergreen Park,Georgia,United States,30092
+8/28/2014,Service 3,1660.76,china-unionpay,Jacintha Skala,7120 Stoughton Way,California,United States,94975
+1/16/2014,Product 5,1272.03,jcb,Ardith Antoniat,2927 Spenser Place,Georgia,United States,31217
+11/22/2013,Product 4,142.33,switch,Walsh Scanlon,1 Holy Cross Road,North Carolina,United States,27404
+2/20/2014,Service 4,1359.39,jcb,Georgie Hendriksen,258 Trailsway Crossing,Colorado,United States,80305
+7/15/2014,Product 9,2501.65,jcb,Tris Donaghie,51049 Johnson Drive,California,United States,92110
+10/21/2013,Service 1,4994.36,jcb,Alessandro Rollins,9 Barby Trail,Pennsylvania,United States,18105
+10/7/2013,Service 6,3115.19,mastercard,Dalis Cajkler,85 Claremont Hill,Illinois,United States,60697
+5/1/2014,Product 8,1934.39,mastercard,Penelopa Janeczek,67 Holy Cross Drive,Texas,United States,76011
+5/4/2017,Service 4,135.65,jcb,Gwenni Boocock,589 Valley Edge Pass,Texas,United States,78215
+3/5/2016,Product 9,4516.67,maestro,Courtnay Guido,6 Portage Circle,Virginia,United States,23228
+5/5/2016,Product 7,4690.41,bankcard,Roxanna Bee,42389 Spohn Plaza,North Dakota,United States,58122
+3/1/2015,Service 5,2266.87,jcb,Mort Hedden,282 Vidon Parkway,Florida,United States,33175
+9/28/2014,Service 5,4886.15,china-unionpay,Nicholle Roy,24 Mcbride Hill,Ohio,United States,44191
+10/26/2013,Service 4,1641.13,visa-electron,Allistir Vankov,4 Algoma Street,Illinois,United States,61651
+6/14/2016,Service 1,3811.93,jcb,Anna-diana Guyton,7 Starling Park,New Jersey,United States,7305
+11/24/2016,Service 3,4797.88,switch,Chase Starking,99 Hanson Junction,Illinois,United States,61629
+11/5/2013,Product 6,2022.42,jcb,Bunny Hintze,0 Meadow Ridge Place,Texas,United States,79116
+5/3/2014,Service 3,780.02,diners-club-enroute,Shepherd Ashbey,1464 Boyd Way,Georgia,United States,30343
+2/24/2014,Product 6,3024.75,jcb,Klemens Greep,5 Sachtjen Parkway,Washington,United States,98506
+5/23/2014,Product 3,4643.08,jcb,Cati Habgood,28 Hazelcrest Pass,Florida,United States,32209
+7/18/2016,Product 7,1754.07,diners-club-us-ca,Myrwyn Fuentez,85185 Magdeline Pass,Virginia,United States,23471
+5/6/2014,Product 2,2351.61,jcb,Herold Cloonan,65718 Main Park,Illinois,United States,62718
+4/27/2015,Product 4,3680.57,china-unionpay,Selma Grierson,214 Almo Crossing,Michigan,United States,48956
+5/18/2014,Product 3,2323.43,jcb,Sarine Herity,77 Dakota Plaza,California,United States,93907
+8/18/2015,Product 1,2198.77,visa-electron,Feodor Reaney,9 Mariners Cove Park,New York,United States,10606
+6/28/2015,Product 5,4133.27,jcb,Ric Jahnel,89 Hovde Avenue,Alabama,United States,36114
+5/27/2014,Service 1,3528.99,jcb,Shaughn Ledster,51 Scoville Terrace,Arizona,United States,85725
+12/18/2016,Product 2,1468.04,mastercard,Rory Camis,61116 Melody Center,California,United States,94616
+3/1/2016,Product 9,3693.52,mastercard,Tucker Alpine,28322 Swallow Trail,Florida,United States,34479
+12/14/2016,Service 3,4334.82,jcb,Edgard Danihelka,84 Hooker Court,Florida,United States,32941
+12/19/2014,Product 8,834.04,jcb,Bryant Ahern,49 Merrick Plaza,California,United States,94147
+7/17/2015,Product 4,4975.54,solo,Teodoor Panichelli,870 Fieldstone Hill,Virginia,United States,24004
+2/29/2016,Product 1,358.9,visa-electron,Vita MacAskill,5 Carpenter Center,Georgia,United States,30022
+11/22/2015,Service 6,1489.98,diners-club-enroute,Ludvig Cannan,39219 Buell Place,Texas,United States,78245
+11/19/2015,Product 9,4518.35,jcb,Morton Toplin,3761 Hagan Avenue,Illinois,United States,60193
+12/24/2014,Product 6,2667.31,switch,Charmine Garbutt,287 Dexter Drive,Ohio,United States,43240
+3/26/2014,Product 7,3047.26,laser,Nettle Kaesmans,80227 Melvin Parkway,Florida,United States,32610
+8/20/2016,Service 5,2005.05,jcb,Vite Ebben,79507 Scofield Terrace,Nevada,United States,89120
+10/22/2016,Product 6,2108.92,maestro,Rhys Enston,080 Hermina Parkway,Minnesota,United States,55579
+5/14/2017,Service 5,4027.11,visa-electron,Margarita Simoneschi,63 Fisk Alley,Texas,United States,75074
+11/20/2015,Product 3,4908.64,americanexpress,Ricard Liversedge,23218 Melvin Point,Florida,United States,32309
+9/29/2016,Service 5,181.71,switch,Brandon Siddeley,97 Manitowish Parkway,Texas,United States,79916
+2/3/2016,Product 3,887.3,visa-electron,Field Flecknell,6172 Lotheville Plaza,Texas,United States,78715
+4/11/2017,Product 10,4971.93,jcb,Isabel Brickdale,70 American Ash Center,North Carolina,United States,27150
+5/4/2015,Service 2,145.62,jcb,Hermia Iddison,69 Londonderry Junction,Pennsylvania,United States,15210
+10/1/2015,Product 10,1889.09,jcb,Ernest Worsall,5102 Colorado Avenue,Florida,United States,33261
+9/2/2016,Service 1,3686.3,jcb,Price Capewell,85 Everett Street,Washington,United States,98140
+8/11/2015,Product 8,1153.35,jcb,Bentlee Spurritt,55906 Crowley Court,Montana,United States,59806
+3/30/2015,Product 2,1169.82,maestro,Anastasie Goschalk,71 Linden Crossing,Texas,United States,75287
+11/25/2015,Product 2,1949.77,jcb,Oralle Heephy,0 Moose Drive,Michigan,United States,49018
+7/6/2014,Product 2,4791.07,mastercard,Lyndel Norbury,402 Oak Center,Nevada,United States,89125
+3/4/2016,Product 1,3610.49,mastercard,Pattie Spurett,40618 Meadow Valley Avenue,New Hampshire,United States,3105
+5/14/2016,Product 7,1631.58,visa-electron,Grover Day,5 Twin Pines Crossing,Minnesota,United States,55565
+11/11/2015,Service 4,80.21,jcb,Estrellita Goddman,76 Hooker Avenue,Pennsylvania,United States,19184
+1/5/2015,Product 1,3579.34,switch,Mia Le Marquand,745 John Wall Point,Illinois,United States,61605
+12/28/2015,Product 2,3744.36,jcb,Tomaso Louth,59567 Texas Pass,Illinois,United States,60691
+11/9/2015,Product 8,1548.06,switch,Seumas Lenchenko,52 Briar Crest Junction,Louisiana,United States,70179
+12/2/2014,Service 4,2480.67,jcb,Reinaldos Gioani,794 Dixon Plaza,Virginia,United States,23454
+8/9/2015,Service 1,1809.2,switch,Olenolin Cuckoo,25 Briar Crest Pass,Delaware,United States,19714
+3/4/2017,Product 5,1306.4,mastercard,Merissa Kelmere,8724 Park Meadow Center,Texas,United States,76711
+11/5/2014,Product 9,445.23,jcb,Tildie Humbee,89431 Oak Center,Arizona,United States,85045
+10/2/2015,Product 7,251.23,jcb,Huberto Dibbin,03 Logan Circle,Texas,United States,76162
+11/10/2014,Product 4,534.1,visa-electron,Padraic Pergens,2300 Vahlen Junction,California,United States,94522
+1/20/2015,Product 9,377.37,jcb,Jerri Madgwick,343 Pepper Wood Circle,Florida,United States,32964
+6/10/2014,Product 5,400.1,switch,Leelah Churm,12979 Ludington Place,Michigan,United States,48211
+12/30/2016,Service 4,1597.72,jcb,Laird Iacovelli,75 Roxbury Lane,Texas,United States,75205
+8/7/2013,Service 6,2367.19,jcb,Nobe Jencey,78 Vidon Alley,Michigan,United States,49560
+9/7/2015,Product 8,4070,mastercard,Welbie Ayling,907 Debra Pass,Indiana,United States,46226
+6/1/2015,Product 2,908.11,jcb,Shirlee Grime,2347 Delaware Circle,California,United States,93778
+5/25/2016,Product 10,2930.3,bankcard,Lisette O'Cahsedy,773 Moland Place,Pennsylvania,United States,15274
+4/27/2016,Product 6,38.71,jcb,Tiffani Yelden,754 Susan Avenue,Colorado,United States,80262
+6/12/2017,Service 3,3018.39,mastercard,Maurene Corgenvin,15698 Nancy Court,Wisconsin,United States,53210
+10/6/2016,Product 1,613.73,jcb,Lisetta Vannet,7979 Old Gate Circle,Missouri,United States,64130
+5/17/2016,Product 2,2027.37,diners-club-carte-blanche,Tammi Krammer,8150 Hayes Lane,Idaho,United States,83716
+7/16/2013,Service 5,158.01,switch,Rosita Challes,16502 Dakota Junction,Indiana,United States,46239
+11/28/2013,Product 8,774.78,instapayment,Stesha McCallion,74382 Anderson Terrace,Kentucky,United States,40505
+7/8/2016,Product 5,3662.9,mastercard,Nevin Melrose,13 1st Alley,Iowa,United States,52809
+3/28/2014,Product 10,2716.26,americanexpress,Callean Bown,9 Mariners Cove Street,Tennessee,United States,38109
+10/6/2015,Product 2,553.91,jcb,Lars Lochead,090 Little Fleur Plaza,Kansas,United States,66112
+4/14/2017,Product 5,4551.54,diners-club-enroute,Brana Nanninini,829 Pennsylvania Way,Ohio,United States,44321
+3/7/2014,Product 3,4897.97,jcb,Hastings Ketchaside,6151 Chive Avenue,New York,United States,14210
+10/17/2016,Service 4,1181.09,diners-club-enroute,Corey Leask,521 Hanover Junction,Oklahoma,United States,74141
+7/24/2015,Service 5,3960.29,jcb,Terza Vinden,0 Badeau Street,Florida,United States,32819
+10/5/2014,Product 8,68.55,diners-club-enroute,Albina Marquet,82709 Bonner Center,District of Columbia,United States,20551
+4/24/2015,Service 1,616.26,jcb,"Margaret Garbutt,",71952 Sage Crossing,Texas,United States,77705
+8/18/2016,Service 5,4754.93,jcb,Hervey Vermer,33 Acker Way,Texas,United States,77040
+8/16/2015,Product 10,4670.77,mastercard,Calli Hurdis,89 Darwin Road,Georgia,United States,30130
+5/1/2015,Product 7,738.29,jcb,Yasmeen Beggin,9 Starling Parkway,Ohio,United States,45249
+1/16/2016,Product 1,1264.2,china-unionpay,Edlin Petrolli,7120 Parkside Court,District of Columbia,United States,20430
+5/14/2016,Service 6,229.07,mastercard,Caryl Woodhams,5 Rusk Pass,Hawaii,United States,96820
+7/29/2015,Service 6,1821.31,jcb,Renato Biagi,55 Rusk Street,Iowa,United States,50393
+2/14/2016,Product 6,1123.43,jcb,Ashly MacCurlye,28 Eliot Avenue,Florida,United States,32412
+6/9/2015,Product 4,2351.87,jcb,Shaylah Caslett,46134 Bartelt Park,California,United States,94245
+6/4/2017,Product 4,1849.44,mastercard,Stevie Brunotti,58 Dovetail Lane,California,United States,91520
+12/10/2013,Product 5,4067.61,switch,Edin Sussex,0974 Northland Crossing,Texas,United States,75705
+4/10/2014,Product 8,100.64,solo,Arnold Gallamore,51462 Sutteridge Drive,Nevada,United States,89150
+2/9/2016,Product 4,2456.6,diners-club-enroute,Vincents Francescoccio,21 Del Sol Trail,Florida,United States,33069
+3/15/2017,Service 6,3876.43,bankcard,Dirk Chisnell,14383 Raven Hill,Pennsylvania,United States,18018
+1/10/2017,Service 3,2910.86,maestro,Mercedes Peskin,15 Warbler Park,Alabama,United States,36195
+12/25/2015,Service 2,1635.62,switch,Jobie Skeel,0958 Debs Avenue,Georgia,United States,31904
+2/17/2014,Service 4,4870.3,jcb,Leta Bickerton,76794 1st Plaza,Minnesota,United States,56398
+5/31/2016,Product 7,876.28,visa,Jarrid Edmondson,2679 Mesta Circle,Florida,United States,32520
+2/12/2017,Product 6,2723.93,diners-club-enroute,Don Hainning,7 Hudson Circle,New York,United States,10184
+6/25/2017,Service 2,3813.38,jcb,Kenton Mouth,180 Lotheville Trail,Oklahoma,United States,73142
+2/23/2014,Service 5,1249.16,solo,Edita Willgoose,6561 Prairie Rose Avenue,Louisiana,United States,70154
+2/12/2016,Service 1,1432.3,visa-electron,Torrin Grishagin,5207 Golf Avenue,California,United States,95405
+12/30/2014,Product 8,4800.3,jcb,Laird Dallas,2965 Miller Place,Texas,United States,78230
+8/27/2014,Product 9,1039.22,diners-club-carte-blanche,Abby Inold,77826 Melvin Plaza,West Virginia,United States,25356
+1/19/2016,Service 1,4725.2,diners-club-enroute,Tammy Seelbach,7351 Harper Center,West Virginia,United States,26505
+6/2/2014,Service 6,3766.43,jcb,Coreen Scase,3032 Luster Street,North Carolina,United States,28247
+4/16/2016,Product 5,1864.67,jcb,Fabe Rosenfield,92 Pankratz Crossing,Utah,United States,84170
+1/15/2015,Product 5,3288.59,jcb,Roxie Slorance,8 Northview Place,Texas,United States,78778
+1/16/2015,Product 3,2108.45,jcb,Gino Vigurs,37020 Northfield Court,Missouri,United States,64160
+7/8/2013,Service 2,1874.64,jcb,Analiese Perrin,93251 Mallory Plaza,Texas,United States,78778
+2/26/2014,Product 9,3066.82,americanexpress,Anabelle Crossgrove,8 Onsgard Street,Florida,United States,32964
+11/14/2016,Product 5,4968.29,switch,Brandi Christie,177 Susan Plaza,District of Columbia,United States,20078
+6/26/2017,Product 3,1670.18,switch,Renae Scarr,964 Manitowish Court,Tennessee,United States,38114
+6/14/2014,Service 4,618.64,mastercard,Ileane Chislett,8477 Forest Run Lane,Virginia,United States,23213
+8/1/2013,Product 10,1505.84,jcb,Sissy Dmytryk,9 Corben Junction,West Virginia,United States,25711
+5/24/2014,Service 3,4163.54,americanexpress,Godfrey Kubalek,473 Gale Street,Illinois,United States,61656
+2/5/2016,Product 8,2730.52,diners-club-enroute,Tucker Tozer,9 Arapahoe Crossing,Michigan,United States,48206
+2/12/2017,Service 2,2742.83,jcb,Danyette Farney,7 Lakewood Drive,Hawaii,United States,96840
+6/13/2014,Service 6,3036.45,maestro,Tally Arkley,0502 Acker Trail,New York,United States,14624
+6/5/2014,Product 10,2574.69,mastercard,Jillayne Grishanin,9574 Walton Junction,Florida,United States,33283
+10/21/2016,Service 6,3936.73,jcb,Kendell Baldin,65572 Algoma Lane,Florida,United States,33190
+12/10/2014,Service 3,669.91,visa,Fayette Sprey,5499 Pankratz Lane,Florida,United States,32627
+6/1/2017,Service 4,1568.01,mastercard,Sergio McFaell,25843 Melby Center,Arizona,United States,85077
+12/24/2015,Service 1,1277.53,diners-club-us-ca,Brietta Girard,33 Amoth Way,California,United States,91606
+8/10/2013,Service 5,1207.98,visa-electron,Sofie Odhams,4 Oak Valley Point,Illinois,United States,61110
+5/24/2015,Product 5,361.02,jcb,Traci D'Onise,4 Goodland Trail,California,United States,91606
+12/19/2015,Service 5,2552.81,maestro,Gusti Hallede,55 Elmside Parkway,Virginia,United States,23213
+5/12/2014,Service 1,4504.73,jcb,Amabelle Mathis,705 Evergreen Lane,Indiana,United States,46406
+2/20/2017,Product 6,3926.96,solo,Rochelle Aldwich,093 Mariners Cove Parkway,Washington,United States,99215
+4/14/2016,Product 9,3568.09,visa,Gay Keemer,5 Dakota Court,District of Columbia,United States,20508
+8/3/2015,Product 7,830.19,laser,Lissa Mackerel,784 Manley Lane,Colorado,United States,80951
+9/27/2016,Product 3,2021.35,switch,Herc Fulton,3 Holy Cross Parkway,Texas,United States,77299
+1/31/2015,Product 4,4456.05,americanexpress,Wilona Nott,56 New Castle Crossing,Texas,United States,79452
+1/22/2015,Product 8,2011.86,americanexpress,Natalee Prosek,90 Holmberg Junction,Indiana,United States,47725
+9/8/2014,Product 4,669.04,jcb,Zeb McNirlan,90 Fulton Center,District of Columbia,United States,20041
+11/3/2013,Product 4,937.57,maestro,Carrie Lowdham,3 Spaight Terrace,Washington,United States,98148
+10/8/2014,Service 5,1837.54,maestro,Neely Hatry,7486 Pleasure Hill,Massachusetts,United States,2472
+9/17/2016,Product 5,2249.26,jcb,Lannie Freeberne,76327 Ludington Drive,New York,United States,14210
+5/17/2015,Service 2,3445.58,jcb,Dennis Laugharne,86 American Crossing,California,United States,94147
+10/13/2015,Product 4,1817.46,jcb,Yves Keasy,9258 Merry Circle,Massachusetts,United States,2119
+10/15/2016,Product 7,732.1,diners-club-international,Allin Kobsch,91 Glendale Terrace,Iowa,United States,50369
+2/12/2014,Product 3,3829.06,diners-club-carte-blanche,Felecia Braganza,2 Milwaukee Parkway,District of Columbia,United States,20205
+4/28/2016,Product 3,4652.19,diners-club-enroute,Ola Gowler,6008 Portage Street,Virginia,United States,22903
+6/18/2015,Product 6,3907.06,maestro,Dorthea Standeven,589 Maryland Plaza,Indiana,United States,47712
+12/18/2015,Service 5,1725.45,jcb,Clerc Chaney,3 Longview Park,Virginia,United States,22225
+12/13/2013,Product 6,3910.85,jcb,Corrie Gagan,5 Warrior Lane,Alabama,United States,36628
+8/3/2014,Service 1,92.68,jcb,Eustace Hartzogs,025 Westport Drive,Nevada,United States,89087
+2/27/2015,Product 4,3470.33,jcb,Sloane Rouff,4200 Ridgeview Plaza,Georgia,United States,31106
+3/27/2017,Product 4,1732.73,visa-electron,Griz Hughes,1 Ridgeway Way,Illinois,United States,61640
+9/14/2016,Product 8,4775.79,jcb,Terencio Ortmann,32 Sachtjen Plaza,Washington,United States,98481
+2/9/2017,Service 3,4904.72,jcb,Eb Biggen,48960 Cordelia Pass,California,United States,93721
+2/2/2014,Service 4,3070.52,visa-electron,Pernell Jeannaud,830 Sachs Drive,Minnesota,United States,56398
+2/16/2017,Product 8,3727.71,jcb,Cecilio Farey,18755 Everett Point,California,United States,90060
+8/4/2016,Service 1,4417.05,jcb,Giffy Partlett,04 Grayhawk Street,Kentucky,United States,40215
+3/28/2015,Service 6,487.21,jcb,Faustina Hamsson,78 Loomis Hill,Washington,United States,98664
+6/10/2015,Product 4,2274.86,mastercard,Timothy Archdeacon,91707 Merchant Court,Pennsylvania,United States,19184
+5/24/2014,Product 1,4136.46,mastercard,Essie Giacopetti,601 Muir Lane,Florida,United States,32123
+8/31/2016,Product 2,395.01,jcb,Reeva Quibell,294 Dottie Street,Delaware,United States,19725
+1/5/2016,Product 6,3455.96,bankcard,Rock Ashby,63393 Ridgeway Terrace,Texas,United States,77015
+10/19/2015,Product 4,2253.15,jcb,Andrea Fesby,69700 Westport Junction,Florida,United States,33543
+3/30/2015,Product 8,39.91,laser,Elene Tumilson,7 Rutledge Hill,Texas,United States,77346
+9/15/2015,Service 2,4860.98,jcb,Jedd MacTrustram,3 Brentwood Plaza,California,United States,94230
+1/24/2017,Product 8,2294.93,jcb,Adam Wennington,02061 Dayton Way,Texas,United States,77305
+12/1/2013,Service 3,4010.95,diners-club-international,Mandel Walaron,64339 Division Pass,Texas,United States,76096
+11/7/2014,Product 6,4351.75,maestro,Raymond Braniff,9 Corscot Trail,California,United States,94245
+2/17/2015,Product 6,4905.83,jcb,Ferrell Menchenton,1421 1st Avenue,California,United States,93311
+9/23/2013,Product 3,3255.19,mastercard,Allyson Goad,4405 Stang Avenue,Tennessee,United States,37416
+11/6/2014,Product 5,4809.25,jcb,Rozele Tyreman,27038 Lien Court,Colorado,United States,80995
+1/22/2014,Product 5,1078.98,visa-electron,Lanny Hackney,4534 Waxwing Street,Colorado,United States,81505
+5/4/2016,Product 1,1615.11,instapayment,Dorothy Robelow,25 1st Point,Nebraska,United States,68105
+11/28/2013,Product 5,2547.58,jcb,Ken Capelen,9173 Clove Circle,Texas,United States,77346
+4/1/2015,Service 3,3656.46,mastercard,Christine Whysall,347 Miller Trail,New York,United States,10150
+10/25/2013,Product 6,3195.62,jcb,Roland Dumpleton,4 Rutledge Terrace,Alabama,United States,35487
+1/10/2014,Product 1,286.21,bankcard,Nelly Joris,49063 Ronald Regan Terrace,Louisiana,United States,70116
+3/16/2017,Product 9,2209.17,switch,Robers Charle,14967 Brickson Park Trail,Wisconsin,United States,53726
+11/17/2016,Service 6,2437.84,switch,Reinaldo Bosward,9 Tomscot Drive,California,United States,95405
+6/12/2015,Service 5,2227.21,jcb,Harbert Hoodspeth,86717 Corben Avenue,North Carolina,United States,27605
+10/17/2016,Product 5,182.28,switch,Maximilianus Keirle,550 Carberry Center,New York,United States,11024
+5/7/2014,Service 6,891.47,bankcard,Bendick Farrier,8 Tennessee Hill,Texas,United States,78245
+2/11/2014,Service 4,341.56,bankcard,Yolande Elvidge,63 Southridge Place,Florida,United States,33710
+4/1/2017,Product 8,237.29,jcb,Keene Strickett,15 Grover Crossing,Maryland,United States,21216
+2/20/2016,Product 4,3305.52,instapayment,Adara Dundon,0 Sachtjen Lane,Georgia,United States,30022
+4/9/2016,Product 3,588.16,jcb,Balduin Lishmund,01 Cambridge Trail,Florida,United States,33196
+3/25/2017,Product 4,4224.38,maestro,Viola Larver,5 Caliangt Parkway,Florida,United States,33013
+4/18/2016,Product 3,3765.75,jcb,Paxon Woller,1375 Shoshone Terrace,Florida,United States,34290
+6/23/2015,Product 9,1136.05,mastercard,Daisi Jeness,11 Anthes Park,California,United States,92165
+4/17/2015,Service 2,668.73,mastercard,Harp McLafferty,2804 Eagan Avenue,Texas,United States,75310
+11/7/2015,Service 2,1309.45,jcb,Cal Laban,42017 Londonderry Crossing,Pennsylvania,United States,19125
+10/30/2015,Product 6,3820.62,jcb,Lanette Keyse,321 Hoard Place,Florida,United States,33758
+10/1/2015,Service 6,1760.27,instapayment,Zebulon Franceschi,7558 Shasta Junction,Arizona,United States,85210
+1/20/2016,Product 7,1262.36,switch,Corene Holdren,22 Sunnyside Crossing,Florida,United States,34282
+3/27/2014,Product 5,3675.47,diners-club-enroute,Tory Gaskill,1168 Bluestem Court,New Mexico,United States,88006
+2/19/2016,Service 2,3575.19,jcb,Roy Conneau,15 Scofield Lane,Texas,United States,78215
+7/8/2015,Product 8,1305.33,maestro,Meghan Winfindine,90823 Shelley Alley,Nebraska,United States,68134
+3/16/2014,Product 3,1137.93,jcb,Orbadiah Adamczyk,09 Briar Crest Hill,Florida,United States,32808
+5/14/2016,Product 4,2563.86,solo,Howie Barnsdale,969 Paget Avenue,Alabama,United States,36628
+12/17/2016,Service 6,3650.77,jcb,Hamlen Ingliby,2 Moulton Park,California,United States,93094
+3/28/2014,Product 8,4572.19,americanexpress,Tasia Charrisson,90484 Canary Street,Georgia,United States,31405
+7/9/2014,Product 3,1969.08,jcb,Claire Yonnie,3686 Cardinal Street,Missouri,United States,64109
+8/17/2014,Product 9,2123.33,maestro,Thebault Neill,906 Gateway Pass,Virginia,United States,23285
+5/19/2014,Service 4,840.87,maestro,Jessie Broggelli,662 Kings Plaza,Ohio,United States,43204
+7/9/2014,Product 4,512.12,diners-club-enroute,Porter Kynvin,65727 Morningstar Plaza,California,United States,92825
+10/7/2014,Product 7,4897.98,jcb,Brietta Knatt,973 Magdeline Park,California,United States,92619
+12/26/2013,Product 8,3483.82,maestro,Sherline Cutmore,61 Cherokee Trail,Missouri,United States,65810
+5/27/2014,Product 6,2499.93,china-unionpay,Cristin Gouldsmith,9 Rutledge Trail,District of Columbia,United States,20231
+1/2/2016,Service 3,2642.98,jcb,Kenton Davidovitch,74925 Veith Point,Pennsylvania,United States,17605
+4/4/2017,Product 5,2918.07,jcb,Rog Jina,426 Grasskamp Lane,North Carolina,United States,28220
+2/27/2015,Product 10,44.7,jcb,Kristopher Jones,63757 Sunfield Court,Illinois,United States,62764
+5/10/2016,Service 3,4397.09,americanexpress,Ag Dreinan,96 Granby Trail,Connecticut,United States,6533
+10/29/2014,Service 4,1955.71,maestro,Fawnia Armitt,951 Almo Pass,Florida,United States,34643
+11/3/2013,Service 2,671.05,laser,Hans Szymanzyk,036 Del Sol Point,Delaware,United States,19810
+6/30/2015,Product 6,1377.91,jcb,Anabelle O'Loughane,50706 Manufacturers Circle,Tennessee,United States,38109
+11/12/2014,Product 1,386.6,diners-club-enroute,Tracee Kinton,92 Iowa Crossing,Florida,United States,34620
+10/6/2013,Product 10,1865.2,maestro,Brandise Lumsdale,41 Forest Trail,Maryland,United States,20784
+2/4/2016,Product 6,3876.06,jcb,Brandie Muge,86 Ridgeway Alley,Ohio,United States,45505
+3/26/2014,Product 1,2590.03,jcb,Bette-ann Igglesden,237 Esker Plaza,New York,United States,14609
+6/28/2015,Service 1,2501.66,china-unionpay,Hillie Owtram,14 Roxbury Point,California,United States,92186
+7/21/2014,Service 6,3031.87,jcb,Kevin Queyeiro,858 Starling Lane,Oregon,United States,97201
+8/4/2014,Product 1,4439.74,jcb,Chalmers Carnier,3102 Burning Wood Trail,New York,United States,10170
+6/16/2017,Service 6,2949.51,maestro,Gloria Machon,38264 Starling Road,Colorado,United States,80910
+8/11/2015,Product 4,2972.6,maestro,Blinny Bysshe,7267 Moulton Point,District of Columbia,United States,20397
+5/28/2015,Product 2,2796.44,americanexpress,Coral Tritten,95270 Village Parkway,North Carolina,United States,28215
+10/3/2014,Product 3,4376.93,jcb,Jennilee Sells,318 Evergreen Crossing,Colorado,United States,80995
+6/9/2014,Product 9,4524.5,maestro,Katti Cullivan,50 Eagan Lane,Missouri,United States,64125
+6/27/2014,Product 2,752.91,jcb,Zelda Lind,773 Bartillon Center,New York,United States,12255
+1/19/2014,Product 6,3972.13,maestro,Leelah Poveleye,7882 Lakewood Gardens Junction,Pennsylvania,United States,15250
+7/2/2015,Product 9,899.55,jcb,Gena Gumbrell,8045 Barby Junction,Louisiana,United States,71105
+12/13/2014,Service 5,4947.8,jcb,Dania Devanny,9532 Dayton Lane,Virginia,United States,23605
+11/20/2015,Service 4,4655.85,jcb,Brandise Stowte,90 Oriole Avenue,Texas,United States,78250
+11/10/2015,Service 1,1927.81,jcb,Odilia MacCarter,46 Merchant Point,Minnesota,United States,55402
+11/19/2014,Product 3,995.88,jcb,Gertrud Rutt,33476 Red Cloud Park,Virginia,United States,23220
+4/7/2017,Service 1,904.11,jcb,Bondy Derby,086 Manley Pass,Minnesota,United States,55146
+8/30/2014,Product 10,2745.05,laser,Dana Kuhnel,204 Londonderry Circle,California,United States,95828
+4/2/2016,Service 5,3885.67,jcb,Perrine Ramshaw,95178 Summer Ridge Way,Texas,United States,75379
+10/27/2013,Service 3,3005.99,jcb,Edouard Stearn,3940 Ramsey Place,Florida,United States,33023
+3/13/2017,Service 2,4787.19,laser,Paolo Benardeau,0524 Continental Park,Pennsylvania,United States,15240
+2/20/2017,Service 2,476.96,jcb,Carmine O' Borne,7603 Bay Hill,New York,United States,10203
+5/20/2017,Product 5,1269.72,jcb,Danni McGlue,3 Heath Lane,California,United States,90810
+4/22/2015,Product 2,3363.18,laser,Alene Dittson,8139 New Castle Center,Kansas,United States,66617
+8/28/2014,Service 3,1532.82,americanexpress,Quintin Barth,07 Leroy Street,California,United States,94705
+11/13/2016,Service 5,4227.13,jcb,Tracey Creboe,51 5th Parkway,Arizona,United States,85005
+2/1/2016,Product 10,2844.92,maestro,Tirrell Thornley,7 Browning Junction,South Carolina,United States,29625
+7/17/2015,Product 10,1015.76,mastercard,Vonny Mumbeson,0638 Westend Road,New York,United States,14210
+7/12/2015,Service 1,3889.08,visa-electron,Dore Cowlam,2 Cascade Road,California,United States,94705
+4/17/2016,Product 7,30.44,americanexpress,Evelyn Ellsbury,0455 Warner Way,Pennsylvania,United States,19146
+3/20/2016,Service 3,1185.38,maestro,Albina Bew,4 Riverside Court,South Carolina,United States,29305
+12/13/2014,Product 2,4625.32,diners-club-carte-blanche,Bevon Cranny,01 Trailsway Alley,Washington,United States,98109
+1/17/2014,Product 7,425.19,jcb,Cale Arderne,4 Oneill Point,Florida,United States,33972
+6/1/2014,Service 1,4288.78,bankcard,Obidiah Govey,874 Continental Alley,Colorado,United States,80920
+9/5/2014,Service 6,1537.84,jcb,Annette Roblett,621 Ridgeway Hill,District of Columbia,United States,20099
+7/11/2015,Product 9,4210.67,maestro,Lyon Branno,90 Village Trail,New York,United States,10131
+6/5/2017,Product 8,2730.5,instapayment,Zabrina Goldingay,581 7th Circle,Virginia,United States,22047
+8/27/2014,Product 9,3757.99,jcb,Malachi Newcombe,5318 Corben Trail,Connecticut,United States,6510
+6/7/2017,Service 2,2307.49,jcb,Raychel Olech,40 Rieder Center,Colorado,United States,80930
+2/16/2016,Service 5,3778.44,jcb,Martie Carmont,68504 Randy Court,Texas,United States,76711
+7/10/2013,Product 3,1248.43,jcb,Eleonore Lavender,1047 Russell Alley,Texas,United States,76178
+10/8/2015,Product 2,2599.44,instapayment,Arel Duchart,020 Milwaukee Trail,Texas,United States,78285
+6/28/2016,Service 4,4020.1,bankcard,Elsi Godfray,761 Petterle Place,Michigan,United States,48604
+12/15/2016,Product 1,841.32,americanexpress,Bobbie Dalgliesh,98 Mallory Pass,California,United States,95833
+7/28/2014,Product 7,1784.82,mastercard,Talbot Veryan,79 Dawn Drive,Virginia,United States,23668
+11/19/2016,Product 5,3660.2,visa,Shea Brickdale,19 Vera Pass,Louisiana,United States,70894
+6/14/2014,Service 1,3302.36,china-unionpay,Serge Gabriel,414 Buena Vista Place,Nebraska,United States,68517
+5/18/2016,Service 4,3094.18,visa-electron,Ely St Quenin,7 Nancy Lane,Georgia,United States,31410
+5/14/2016,Product 4,833.3,mastercard,Arthur Riseborough,01348 Eagle Crest Circle,Texas,United States,79977
+10/13/2015,Product 8,419.98,jcb,Westleigh Cheater,06 Sullivan Circle,Illinois,United States,62525
+11/21/2013,Product 5,1982.42,americanexpress,Laurie Huggins,72597 Texas Place,New York,United States,10203
+7/8/2014,Product 3,2746.51,jcb,Bryan St. Pierre,2884 Grover Junction,Minnesota,United States,55146
+5/26/2014,Service 5,392.78,jcb,Caroljean Crudginton,678 Ohio Drive,Tennessee,United States,37914
+8/6/2015,Product 6,4342.31,instapayment,Jenni Bromby,6 Carioca Terrace,Idaho,United States,83705
+6/14/2016,Product 6,4503.35,bankcard,Marnie Verity,53253 Graedel Trail,Idaho,United States,83732
+4/29/2015,Product 9,3878.58,jcb,Glori MacKim,76 Blackbird Crossing,Missouri,United States,65105
+7/27/2013,Service 6,1901.32,jcb,Malinde Robottom,1 Ridgeway Court,California,United States,90189
+5/31/2017,Product 2,4283.04,laser,Della Padmore,96 Cambridge Plaza,Minnesota,United States,55805
+12/31/2014,Service 1,3814.47,maestro,Laetitia Crow,7697 Hintze Drive,Ohio,United States,43220
+5/31/2017,Service 5,3473.77,bankcard,Pascal Fasler,04223 Vidon Junction,Tennessee,United States,37919
+11/23/2013,Service 4,2803.57,bankcard,Clem Dominighi,64 Swallow Avenue,Ohio,United States,43215
+8/17/2014,Service 6,3254.65,jcb,Gregorius Goward,78 Di Loreto Trail,Tennessee,United States,38136
+3/13/2017,Product 10,672.62,china-unionpay,Cicily Spadoni,183 Calypso Alley,Idaho,United States,83732
+4/10/2014,Product 10,606.57,switch,Juliann Ramet,9 Hallows Park,North Carolina,United States,28205
+3/26/2016,Product 7,2115.12,jcb,Nanete Barratt,15575 Nova Circle,Indiana,United States,47732
+5/11/2015,Product 10,4418,mastercard,Jesus Zavittieri,0 Iowa Trail,Mississippi,United States,39505
+3/13/2017,Service 5,3154.56,jcb,Caty Menham,39 Warrior Court,Indiana,United States,46814
+2/22/2017,Product 4,2285.41,china-unionpay,Bobinette Yatman,912 Forster Trail,North Carolina,United States,27404
+3/19/2016,Product 8,337.24,china-unionpay,Johna Kennett,8618 Hagan Terrace,Ohio,United States,44555
+5/24/2015,Service 2,639.08,mastercard,Daisy Tettersell,91 Bartelt Hill,Nevada,United States,89135
+7/19/2013,Service 2,4384.98,bankcard,Muriel Putt,7328 Morrow Road,Florida,United States,32964
+12/5/2014,Product 4,2788.28,jcb,Myrvyn Beeke,93493 Pepper Wood Street,Virginia,United States,23663
+5/12/2017,Product 8,4095.32,jcb,Reggie Irce,6024 Clyde Gallagher Avenue,Colorado,United States,80217
+5/24/2014,Service 6,1661.91,visa-electron,Dora Flegg,77 Derek Trail,Pennsylvania,United States,16510
+7/31/2014,Product 1,3235.94,jcb,Nissa Poznanski,92780 Arapahoe Terrace,Virginia,United States,23663
+6/27/2016,Product 10,1151.12,jcb,Elvis Brockington,208 Dayton Crossing,Maryland,United States,20784
+8/14/2014,Product 8,4624.23,jcb,Lauretta Finden,7 Rutledge Center,Florida,United States,34745
+5/22/2014,Product 6,2111.02,mastercard,Sebastian Gumly,99780 Bultman Center,Missouri,United States,64101
+10/30/2014,Product 2,2608.97,diners-club-enroute,Kissiah Lovegrove,676 Derek Junction,New Mexico,United States,87180
+7/6/2013,Product 6,3519.13,china-unionpay,Torey Yakobovicz,43529 Nancy Park,Alabama,United States,35905
+9/25/2013,Product 10,4533.06,visa,Glenine Qualtro,428 Washington Center,Nevada,United States,89519
+4/13/2016,Product 1,2617.22,jcb,Lira Hetterich,1 Schiller Pass,New Jersey,United States,8650
+3/8/2016,Product 6,4735.07,visa-electron,Justine Ballam,25878 Shopko Place,Virginia,United States,22047
+5/22/2016,Product 2,2947.35,maestro,Angelique Price,4 Oak Alley,District of Columbia,United States,20051
+8/20/2014,Product 3,4288.04,switch,Boyd Mitchener,502 Arapahoe Terrace,New York,United States,11205
+4/28/2015,Service 1,596.16,jcb,Kaspar Ather,7975 Melby Point,California,United States,90610
+4/7/2014,Product 3,143.7,switch,Janenna Galton,3306 Garrison Way,New Jersey,United States,7522
+4/19/2014,Service 5,1651.71,jcb,Randee Alwood,0 Kings Court,Pennsylvania,United States,17605
+6/14/2016,Product 3,1317.25,americanexpress,Josiah Netherclift,699 Fulton Center,California,United States,94159
+1/8/2016,Product 9,4933.1,jcb,Lishe Hedworth,0 Cordelia Lane,Texas,United States,76192
+2/26/2017,Product 2,265.27,jcb,Kare Chamberlain,63928 Prairie Rose Parkway,Florida,United States,32813
+2/12/2014,Product 9,3392.4,visa-electron,Sammie Heugel,112 Susan Court,Texas,United States,79410
+11/28/2014,Product 2,2840.42,jcb,Silvia Bleaden,15 Loftsgordon Street,Texas,United States,76162
+3/3/2017,Product 5,2234.79,jcb,Virginie Vernazza,19 Declaration Park,Colorado,United States,80243
+11/1/2016,Product 6,1717.47,china-unionpay,Petunia Lavington,98 Pierstorff Lane,North Carolina,United States,27499
+3/18/2015,Service 1,3203.41,china-unionpay,Collie Estevez,336 Cascade Drive,Florida,United States,32259
+2/15/2017,Product 4,2128.28,americanexpress,Hastie Mariotte,598 Pearson Crossing,Michigan,United States,48206
+10/28/2013,Service 1,1266.55,laser,Doretta Cron,82056 6th Pass,Virginia,United States,22070
+8/16/2015,Product 3,4178.81,jcb,Theodora Judd,4960 Brickson Park Junction,Texas,United States,77005
+3/12/2014,Service 4,3585.5,switch,Nestor Ivashinnikov,686 Linden Center,Massachusetts,United States,2745
+10/10/2013,Service 2,624.53,jcb,Kellie Yexley,0 Lawn Circle,Texas,United States,77234
+3/4/2015,Service 6,4384.21,jcb,Lara Dymond,1262 Gerald Plaza,Texas,United States,75265
+1/27/2017,Product 10,758.6,switch,Marjy Seear,3 Del Sol Drive,Maryland,United States,21275
+4/22/2016,Product 2,4540.89,jcb,Ingamar Birrel,468 Alpine Lane,Florida,United States,32595
+2/11/2016,Product 4,4962.47,mastercard,Eugenia Nobriga,28821 Hoard Way,Colorado,United States,80995
+2/28/2015,Product 3,2326.76,jcb,Bonni Sollas,051 Lien Center,California,United States,94712
+6/24/2014,Service 5,4379.71,jcb,Simona Sommerled,647 Londonderry Place,Nevada,United States,89505
+10/21/2016,Service 2,2010.35,switch,Cookie Torra,236 Cardinal Lane,New Jersey,United States,7544
+6/24/2017,Service 4,3562.45,instapayment,Karlotta Latek,9292 Stone Corner Pass,Texas,United States,78470
+4/21/2016,Product 6,2712.53,laser,Jakob Pawling,7 Sutteridge Road,Georgia,United States,30033
+9/25/2015,Service 4,1382.46,jcb,Normie Tann,08 Kipling Drive,Texas,United States,77505
+3/12/2017,Product 7,3872.26,visa-electron,Hilliary Jorden,09584 Springview Court,California,United States,94177
+6/27/2014,Product 3,140.52,china-unionpay,Sallee Fausch,4120 Anthes Plaza,California,United States,93005
+4/3/2016,Product 5,4598.05,mastercard,Ondrea Fealty,23775 Oxford Center,Florida,United States,32204
+10/14/2013,Product 10,3528.31,laser,Mariska Saiz,02 Londonderry Trail,Arizona,United States,85311
+4/27/2017,Product 1,4867.71,visa-electron,Charlotte Pallatina,72 Ridge Oak Avenue,Michigan,United States,49006
+4/6/2017,Product 4,2933.04,jcb,Marion Altofts,116 Center Pass,California,United States,92410
+7/15/2013,Service 3,783.7,solo,Carley Grahl,7 Londonderry Plaza,Colorado,United States,80044
+9/14/2013,Product 7,2673.79,maestro,Helenelizabeth Paulet,8745 Shopko Road,South Carolina,United States,29615
+10/1/2013,Product 5,812.1,jcb,Elly Iannuzzi,41 Valley Edge Circle,California,United States,93762
+8/27/2014,Service 4,1064.15,laser,Winslow Grandisson,1408 Independence Avenue,Virginia,United States,20167
+1/29/2015,Product 8,3553.24,mastercard,Halsy Pavinese,1 Crowley Hill,Texas,United States,77271
+7/3/2014,Product 2,3681.43,mastercard,Rosanne Titchard,06679 Pine View Junction,New York,United States,13217
+3/7/2015,Product 6,4782.79,jcb,Hedvige Klimushev,9 Eggendart Hill,Illinois,United States,60078
+5/15/2017,Product 8,628.92,diners-club-enroute,Laurence Crambie,6273 Jenna Trail,California,United States,92862
+7/16/2015,Service 1,3991.26,americanexpress,Flor Franzotto,59 Columbus Place,Delaware,United States,19725
+9/2/2015,Service 4,4799.53,jcb,Sybila Mingardi,1583 Sutherland Parkway,Ohio,United States,43210
+3/29/2017,Product 6,3463.09,jcb,Justino Rove,622 Bluestem Drive,New York,United States,12325
+12/29/2013,Product 8,2597.25,jcb,Aubrey Fergusson,192 Texas Junction,Texas,United States,78250
+5/14/2016,Service 6,178.06,jcb,Danie Lugton,8032 Lotheville Circle,Louisiana,United States,70820
+2/20/2016,Product 4,1723.92,jcb,Becca Tarzey,81 Coolidge Parkway,Florida,United States,32225
+8/21/2015,Service 1,1459.34,jcb,Lyssa Cuvley,135 Magdeline Court,Colorado,United States,80925
+3/1/2015,Product 8,3008.52,jcb,Meta Readings,5 Banding Street,Kentucky,United States,40280
+1/25/2016,Product 7,4239.28,mastercard,Joe Sloegrave,8595 Calypso Park,Florida,United States,34949
+5/5/2016,Service 5,4096.7,instapayment,Christalle Manuelli,33 Carberry Avenue,Louisiana,United States,70005
+2/7/2014,Product 9,615.37,jcb,Aldo Antusch,500 Bonner Trail,Kentucky,United States,40581
+3/15/2015,Product 10,3867.97,jcb,Ruperto Megroff,64309 Kingsford Lane,Texas,United States,77223
+7/22/2013,Product 6,947.47,jcb,Nicole Eyres,49 North Plaza,Maryland,United States,20918
+4/20/2015,Service 4,4977.49,americanexpress,Marla Redmain,5 Little Fleur Center,Colorado,United States,80127
+2/14/2015,Product 9,1811.88,diners-club-enroute,Jaclin Scarsbrook,79 Lillian Hill,Connecticut,United States,6705
+12/28/2013,Product 3,2735.96,diners-club-enroute,Hanny Everix,198 Gateway Center,Alabama,United States,35220
+10/20/2014,Product 10,2565.21,switch,Cilka Sabathe,7821 Park Meadow Trail,Nevada,United States,89519
+7/5/2015,Product 7,3630.31,bankcard,Mia Roizn,86 Pepper Wood Parkway,Mississippi,United States,39534
+3/8/2017,Service 5,533.49,china-unionpay,Royall Jakubiak,3169 Golden Leaf Alley,Connecticut,United States,6538
+1/6/2014,Product 3,525.83,bankcard,Brittani Farrell,5684 Northview Lane,Illinois,United States,61629
+2/13/2016,Service 6,4916.56,maestro,Hally Sworne,942 Paget Pass,Missouri,United States,65218
+4/24/2014,Service 3,4649.22,jcb,Franky Garaway,7561 Farwell Street,Louisiana,United States,70149
+12/31/2013,Product 1,1103.38,jcb,Maitilde Jendrich,2 Vermont Pass,Wyoming,United States,82007
+8/27/2013,Product 7,4646.41,diners-club-international,Davine Chapling,20 Forest Run Park,Florida,United States,33283
+5/29/2017,Service 6,1421.47,china-unionpay,Peadar Burriss,525 Monica Pass,Texas,United States,77085
+5/14/2014,Service 5,2148.67,switch,Ranique Halversen,17 Almo Alley,Florida,United States,33261
+2/7/2016,Product 6,4955.64,diners-club-carte-blanche,Torrey Purkiss,08498 La Follette Pass,District of Columbia,United States,20299
+11/4/2014,Product 6,2320.06,maestro,Vevay Chazerand,4 Dixon Place,New York,United States,10105
+12/20/2015,Product 10,2443.71,mastercard,Morey Gamage,9110 Raven Hill,Texas,United States,79118
+5/2/2017,Product 4,4829.68,visa,Riobard Braybrook,70 Dixon Court,Alaska,United States,99599
+10/22/2014,Product 10,1716.58,laser,Umberto Chalkly,9 Fisk Trail,Florida,United States,33605
+2/27/2014,Product 4,4066.97,jcb,Linnet Rubroe,7185 Blaine Place,Illinois,United States,60646
+12/2/2013,Product 9,800.14,jcb,Sybilla Stobbes,72 Fair Oaks Plaza,Texas,United States,76796
+7/24/2016,Service 6,4254.89,mastercard,Luigi Frede,85 Rigney Point,Connecticut,United States,6510
+3/30/2016,Product 10,1321.45,jcb,Fitzgerald von Hagt,33 Parkside Center,Oregon,United States,97312
+7/10/2015,Product 10,860.68,jcb,Alan Cutcliffe,114 Service Plaza,Florida,United States,32964
+8/13/2015,Product 7,3437.54,jcb,Jeniece Dongall,50730 Sutteridge Circle,North Carolina,United States,27415
+2/5/2017,Service 3,2280.55,jcb,Neely Kenefick,900 Karstens Parkway,Texas,United States,75216
+10/6/2016,Service 4,4926.05,jcb,Sorcha Gander,67068 Monterey Point,Georgia,United States,31165
+1/2/2015,Product 4,3730.49,mastercard,Rogers Terram,15891 Sunbrook Terrace,Delaware,United States,19892
+8/25/2016,Product 2,1251.48,jcb,Sherri Dudson,50564 Summerview Crossing,Louisiana,United States,70883
+7/13/2015,Service 6,367.23,bankcard,Trescha Longfield,91065 Loomis Point,Florida,United States,33013
+10/11/2016,Product 9,742.51,maestro,Lettie Moulder,10922 Stone Corner Street,Georgia,United States,30195
+2/28/2017,Service 1,4590.69,diners-club-carte-blanche,Gray Humbell,5480 Basil Terrace,California,United States,90831
+5/26/2015,Product 5,489.14,jcb,Tallulah Worters,98097 Morningstar Lane,Missouri,United States,65898
+5/6/2016,Service 5,4672.56,americanexpress,Lira Cockell,9591 Pond Drive,Pennsylvania,United States,16565
+3/11/2016,Service 4,4405.89,maestro,Winifred Grenfell,08146 Moulton Avenue,Texas,United States,79945
+8/11/2016,Product 7,2750.83,mastercard,Eleanore Demkowicz,5 Hollow Ridge Plaza,Texas,United States,79916
+10/22/2013,Product 1,3291.05,jcb,Alick Killik,0 International Trail,Pennsylvania,United States,17405
+6/9/2015,Product 3,4905.18,jcb,Sharai Kemmish,992 Manufacturers Center,Texas,United States,78291
+6/16/2016,Product 5,1537.39,jcb,Ezmeralda Antoshin,06 Larry Avenue,New York,United States,14276
+3/29/2014,Service 5,336.32,jcb,Lucky Oldred,03324 Monterey Court,Texas,United States,76198
+1/5/2016,Service 5,563.11,switch,Andie Emtage,3 Delaware Road,Colorado,United States,80126
+6/25/2015,Service 4,3031.92,maestro,Howard Augie,808 Miller Parkway,Pennsylvania,United States,18763
+8/19/2013,Product 8,2403.97,jcb,Sacha Bartolomeazzi,09517 Merchant Plaza,Illinois,United States,62756
+9/14/2014,Product 9,2814.66,jcb,Emmie Gowenlock,8281 Kedzie Crossing,California,United States,91411
+10/1/2014,Service 3,2219.85,diners-club-enroute,Horst Stanluck,55 Melvin Junction,Texas,United States,75372
+7/13/2016,Product 8,500.43,jcb,Leland Maylor,4923 Menomonie Drive,Colorado,United States,80005
+4/10/2016,Service 4,4436.69,jcb,Deonne Kuscha,262 Anderson Park,South Carolina,United States,29625
+4/30/2014,Service 5,1176.47,bankcard,Vinny Smaling,0 Morning Trail,California,United States,92165
+10/24/2013,Product 9,1911.64,switch,Barclay Pikesley,78 Browning Circle,Ohio,United States,44111
+9/8/2014,Service 5,308.13,china-unionpay,Alex Deal,93711 Jana Hill,Ohio,United States,45505
+10/30/2013,Product 2,2199.68,switch,Judy Cody,80598 Parkside Avenue,Georgia,United States,30323
+1/25/2016,Service 2,2367.77,jcb,Annadiana Durbann,1 Manitowish Drive,Texas,United States,88553
+2/24/2014,Product 5,164.39,visa-electron,Kellen Marriner,2929 Declaration Crossing,Texas,United States,79955
+5/28/2017,Service 4,2622.89,jcb,Sal Fanner,015 Erie Avenue,New York,United States,10060
+11/5/2015,Product 1,915.83,jcb,Demetrius Kellogg,974 Portage Plaza,Florida,United States,33310
+1/21/2015,Product 1,3604.8,jcb,"Bellina Torns,",398 Steensland Way,California,United States,93778
+9/13/2014,Product 8,3996.4,maestro,Dehlia Flacke,113 Graceland Junction,Kentucky,United States,40596
+3/19/2016,Product 4,388.69,jcb,Antonietta Cayette,7 Browning Hill,New York,United States,10150
+1/15/2014,Product 5,647.7,diners-club-carte-blanche,Shir Fishbourne,30 Almo Junction,California,United States,92191
+5/31/2017,Service 2,2678.92,maestro,Juditha Rubinow,73 Bluestem Lane,Arizona,United States,85311
+1/6/2016,Product 8,3269.85,jcb,Gail Heffron,646 Acker Way,Missouri,United States,63167
+9/24/2014,Service 6,2061.07,diners-club-enroute,Trev Kinkead,43 Waywood Street,Delaware,United States,19714
+10/8/2013,Product 10,1612.87,visa,Shellysheldon Tyrrell,909 Jenna Parkway,Missouri,United States,64125
+11/19/2013,Service 5,1413.44,diners-club-enroute,Zia Starsmeare,2825 Jay Drive,California,United States,95113
+3/2/2014,Product 7,3691.2,maestro,Gordon Weaben,772 Lighthouse Bay Drive,Texas,United States,79999
+3/29/2014,Service 2,2825.91,jcb,Teddy Janowski,6075 Northport Junction,Florida,United States,33963
+3/3/2016,Product 5,3275.24,maestro,Flora Cloake,905 Shelley Pass,Florida,United States,33805
+7/25/2016,Service 3,4851.93,mastercard,Issi Paradine,15581 Dakota Point,Missouri,United States,64144
+6/13/2017,Product 9,2644.89,china-unionpay,Bartie Mathan,4 Arkansas Avenue,New York,United States,10633
+3/25/2017,Service 2,4110.63,visa,Rheta Scohier,8 Pearson Hill,District of Columbia,United States,20591
+9/16/2013,Product 1,2764.91,americanexpress,Mala Ackers,0894 Texas Avenue,Delaware,United States,19897
+1/29/2015,Product 1,1454.63,switch,Palmer Furney,725 Prairie Rose Junction,Texas,United States,77240
+8/5/2016,Service 6,131.75,maestro,Darleen Bousler,277 Dunning Crossing,Colorado,United States,80995
+7/10/2016,Product 8,1735.18,diners-club-international,Skipp Norman,8831 Messerschmidt Alley,California,United States,93773
+10/23/2014,Service 4,991.67,americanexpress,Emmott Karmel,6419 Loeprich Avenue,Texas,United States,77015
+12/30/2014,Service 6,1775.7,jcb,Vic Crebott,0341 Nelson Parkway,Pennsylvania,United States,19196
+2/12/2016,Service 2,1450.6,jcb,Lilas Doxsey,63 Westport Park,California,United States,92056
+4/26/2017,Product 1,3500.14,americanexpress,Abigale Palatino,061 Warner Point,Kansas,United States,66220
+11/19/2015,Product 6,3618.84,jcb,Jessamine Gland,721 Jenna Lane,Texas,United States,79989
+2/28/2014,Product 1,4181.02,laser,Wenda Onthank,1929 Paget Plaza,Texas,United States,76110
+5/11/2017,Product 7,696.73,jcb,Andria Tomney,43 Farragut Center,District of Columbia,United States,20370
+10/14/2013,Service 5,3870.95,diners-club-international,Eldridge Hullbrook,9 Mosinee Pass,Pennsylvania,United States,19058
+4/1/2017,Product 10,4901.81,diners-club-international,Karleen Douch,70 Harper Point,Georgia,United States,30392
+3/28/2015,Product 3,962.65,jcb,Jacynth Fishpool,55 Washington Lane,Florida,United States,32859
+4/16/2014,Product 10,1087.49,americanexpress,Trudie Beckingham,814 Independence Plaza,Texas,United States,78721
+6/23/2014,Service 5,3049.83,jcb,Easter Rothery,639 Sage Junction,Minnesota,United States,55487
+9/7/2013,Service 6,4561.91,diners-club-enroute,Silvie Goundsy,990 Schiller Road,Pennsylvania,United States,19136
+10/16/2013,Product 1,3054.64,diners-club-carte-blanche,Merle Synder,95 Kenwood Road,Pennsylvania,United States,16534
+10/4/2013,Product 3,1437.18,americanexpress,Mellisa Liddel,17984 Melody Junction,New Mexico,United States,87505
+4/8/2015,Service 2,1597.18,maestro,Khalil Banbrigge,7 Dahle Parkway,Georgia,United States,30033
+5/4/2015,Service 1,3175.22,china-unionpay,Erich Chapier,2348 Commercial Terrace,Texas,United States,79923
+3/20/2016,Product 9,3835.2,bankcard,Teodora McCaw,1 Calypso Road,California,United States,94169
+8/15/2016,Product 1,1191.87,switch,Samuele Fayer,2958 Anzinger Point,Idaho,United States,83727
+5/2/2014,Service 2,3472.34,maestro,Brandise Crowe,08251 Nova Point,District of Columbia,United States,20404
+4/29/2016,Service 4,3254,jcb,Linea Phibb,9945 Raven Point,Tennessee,United States,37995
+5/28/2015,Service 1,3067.19,visa-electron,Gal Milius,9 Graedel Park,West Virginia,United States,25389
+12/15/2016,Service 5,1257.16,maestro,Carleton Endacott,192 Sycamore Avenue,Florida,United States,32204
+11/2/2013,Product 1,3211.72,jcb,Lyndy Brommage,54676 East Plaza,Louisiana,United States,70129
+9/22/2014,Product 6,1161.03,jcb,Stinky Flaonier,33 Russell Crossing,Kansas,United States,67205
+5/26/2017,Service 3,2155.33,jcb,Marrissa Mountney,16 Debra Center,Florida,United States,33124
+3/18/2014,Product 8,2907.05,jcb,Sven Lefeaver,23622 Shopko Place,Michigan,United States,49018
+1/28/2015,Product 6,3762.05,americanexpress,Manya Burrow,20092 Crest Line Avenue,New York,United States,10275
+12/12/2013,Product 2,2551.44,maestro,Eydie Peer,83956 Hanson Hill,Ohio,United States,43240
+2/10/2017,Product 9,4365.61,laser,Jeanette Sutheran,87006 Menomonie Crossing,Michigan,United States,48098
+4/20/2015,Product 8,1999.93,jcb,Alissa Rospars,63809 Walton Parkway,Florida,United States,33320
+6/13/2016,Product 2,130.36,jcb,Virgina Haveline,77 Sunfield Point,Minnesota,United States,56372
+12/22/2016,Product 5,1597.77,jcb,Camile Silverson,7 Lakeland Road,District of Columbia,United States,20062
+1/3/2016,Product 8,168,visa,Alvis Hucquart,5 American Ash Alley,Texas,United States,77260
+6/13/2016,Service 1,2622.28,americanexpress,Tootsie McMains,5 Oak Point,Florida,United States,34611
+7/15/2015,Service 3,4051.73,mastercard,Casandra Madner,78522 Corscot Plaza,Washington,United States,98664
+8/23/2016,Product 6,1973.65,diners-club-carte-blanche,Maurine Lippard,5751 Vidon Trail,Texas,United States,79968
+9/26/2016,Product 10,596.87,jcb,Julienne Antoni,454 Cascade Parkway,Iowa,United States,50320
+2/26/2015,Product 9,358.44,jcb,Eadmund Van der Kruys,1 Superior Place,Oklahoma,United States,73142
+8/24/2013,Product 6,288.38,jcb,Elka Volonte,61 Porter Parkway,Hawaii,United States,96810
+2/1/2015,Service 2,3308.78,jcb,Ev Schultz,4 Golden Leaf Crossing,Pennsylvania,United States,18018
+3/1/2014,Product 10,3695.19,diners-club-us-ca,Lyndy MacClenan,01545 Gerald Pass,Indiana,United States,46825
+3/21/2015,Product 5,82.45,jcb,Alvina Sockell,46463 Canary Trail,Indiana,United States,46614
+8/31/2014,Product 6,3957.97,jcb,Irma Knagges,12 Helena Trail,Missouri,United States,64136
+6/8/2015,Service 6,3206.52,diners-club-us-ca,Oriana Figgess,95 Mockingbird Drive,Indiana,United States,46620
+3/10/2017,Product 7,320.9,jcb,Twila Lingley,810 Bayside Place,Ohio,United States,45208
+10/6/2016,Product 3,2681.4,solo,Marlo Peters,265 Northview Court,Florida,United States,33411
+12/15/2014,Product 2,1673.19,visa-electron,Norby Dimsdale,3359 Petterle Pass,Massachusetts,United States,2124
+8/19/2016,Product 1,3423.32,jcb,Stephi Monroe,4 Atwood Junction,California,United States,92110
+7/31/2013,Product 3,1755.3,instapayment,Daphna Steely,78 4th Junction,Connecticut,United States,6510
+12/6/2013,Product 5,1108.49,maestro,Jasmina Eastwell,5538 Thierer Pass,Maryland,United States,21275
+1/5/2016,Product 6,4427.94,diners-club-international,Yolande Scaysbrook,2 Lake View Park,Illinois,United States,60624
+6/6/2014,Product 9,2063.79,maestro,Pierre Rivalland,1988 2nd Junction,Florida,United States,34615
+10/19/2013,Product 2,569.45,mastercard,Sisile Wakenshaw,53283 Northwestern Circle,Nevada,United States,89087
+6/19/2016,Product 1,3332.84,maestro,Sapphire Foot,81 Express Point,New York,United States,14210
+1/23/2014,Product 4,1056.9,solo,Eberhard Rawlings,2 Fisk Pass,Maryland,United States,21747
+12/21/2015,Product 5,1180.75,jcb,Lana Grigolli,429 Oakridge Junction,District of Columbia,United States,20051
+3/22/2016,Product 3,113.18,maestro,Bogey Dericot,72 Lakeland Way,Georgia,United States,30061
+12/15/2015,Product 6,3093.58,jcb,Drucy Sowter,4288 Elgar Way,Texas,United States,77288
+4/10/2014,Product 5,2138.18,switch,Jeanelle Eyers,8032 Ridgeview Place,Minnesota,United States,55480
+10/20/2015,Product 4,2799.17,mastercard,Richmound Dendle,1619 Golf Court,Hawaii,United States,96835
+6/6/2017,Product 4,2284.21,jcb,Ettore Findon,7215 Meadow Vale Terrace,Tennessee,United States,38168
+11/1/2013,Product 10,2855.88,jcb,Jess McCalum,1 Bunting Crossing,North Carolina,United States,28215
+4/8/2015,Service 5,4951.31,jcb,Henry Beton,01 Cambridge Drive,Louisiana,United States,71307
+4/11/2014,Service 5,2406.66,china-unionpay,Juanita Tembridge,13151 Rutledge Point,Florida,United States,33069
+10/19/2016,Product 9,1760.23,jcb,Caterina Kipping,70 Bashford Way,Illinois,United States,60158
+7/5/2014,Product 2,1270.09,jcb,Carolin Stuehmeyer,39 Lukken Pass,Kentucky,United States,40515
+9/7/2013,Service 3,4120.32,jcb,Shandeigh Figger,0 Merrick Park,New York,United States,12227
+10/8/2014,Product 9,492.74,mastercard,Carce Regenhardt,9216 Buell Park,Georgia,United States,30343
+3/4/2017,Service 6,1222.17,jcb,Easter Rudeforth,6 Hooker Pass,Texas,United States,77223
+2/11/2016,Service 5,514.57,visa-electron,Bronnie Hawkeridge,76889 Cody Drive,Ohio,United States,44329
+7/19/2014,Product 1,3812.64,switch,Seana McHenry,6 Northview Street,Alabama,United States,36610
+1/6/2016,Service 5,3183.71,jcb,Rossie Casement,45 Kinsman Point,Iowa,United States,52804
+10/9/2013,Service 1,4067.77,bankcard,Eilis Cockran,2066 Crescent Oaks Park,Tennessee,United States,38181
+3/16/2017,Product 8,1426.29,jcb,Bettye Spering,49129 Bunting Way,California,United States,92648
+1/12/2014,Service 4,229.84,diners-club-carte-blanche,Shaughn Cattrell,43 Stone Corner Pass,Michigan,United States,48242
+4/14/2014,Service 2,328.54,mastercard,Clemmy Harle,96311 Waywood Lane,Florida,United States,33615
+1/2/2015,Service 1,3613.2,diners-club-carte-blanche,Emalia Neville,9 Rigney Lane,Pennsylvania,United States,19146
+4/13/2014,Product 9,577.99,americanexpress,Carlos Achrameev,4640 Morning Trail,Illinois,United States,60604
+12/31/2015,Product 10,2420.62,americanexpress,Stormy Welham,950 North Drive,Massachusetts,United States,1813
+7/4/2013,Service 4,2226.55,jcb,Papageno Sieur,47099 Lerdahl Street,North Carolina,United States,27626
