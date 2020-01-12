@@ -173,23 +173,23 @@ class Dashboard extends React.Component {
           </GridItem>
         </GridContainer>
         <GridContainer>
-          <GridItem xs={12} sm={12} md={6}>
+          <GridItem xs={12} sm={12}>
             <Card>
-              <CardHeader color="warning">
-                <h4 className={classes.cardTitleWhite}>Employees Stats</h4>
+              <CardHeader color="info">
+                <h4 className={classes.cardTitleWhite}>Credit Card Statistics</h4>
                 <p className={classes.cardCategoryWhite}>
                   New employees on 15th September, 2016
                 </p>
               </CardHeader>
               <CardBody>
                 <Table
-                  tableHeaderColor="warning"
-                  tableHead={["ID", "Name", "Salary", "Country"]}
+                  tableHeaderColor="info"
+                  tableHead={["ID", "Name", "Country"]}
                   tableData={[
-                    ["1", "Dakota Rice", "$36,738", "Niger"],
-                    ["2", "Minerva Hooper", "$23,789", "Curaçao"],
-                    ["3", "Sage Rodriguez", "$56,142", "Netherlands"],
-                    ["4", "Philip Chaney", "$38,735", "Korea, South"]
+                    ["1", "Dakota Rice", "United State"],
+                    ["2", "Minerva Hooper", "Curaçao"],
+                    ["3", "Sage Rodriguez", "Netherlands"],
+                    ["4", "Philip Chaney", "Korea, South"]
                   ]}
                 />
               </CardBody>
