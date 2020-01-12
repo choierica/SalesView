@@ -7,6 +7,7 @@ import {
   roseCardHeader,
   whiteColor
 } from "assets/jss/material-dashboard-react.js";
+import { blackColor } from "assets/jss/material-dashboard-react";
 
 const cardHeaderStyle = {
   cardHeader: {
@@ -19,7 +20,7 @@ const cardHeaderStyle = {
       margin: "0 15px",
       padding: "0",
       position: "relative",
-      color: whiteColor
+      color: blackColor
     },
     "&:first-child": {
       borderRadius: "calc(.25rem - 1px) calc(.25rem - 1px) 0 0"

@@ -131,7 +131,7 @@ body {
   margin: 0 auto 40px;
 }
 .txt-white {
-  color: #ffffff;
+  /* color: #ffffff; */
 }
 .txt-gray {
   color: #ddd !important;

@@ -38,277 +38,295 @@ import {
 } from "variables/charts.js";
 
 import styles from "assets/jss/material-dashboard-react/views/dashboardStyle.js";
-import onlineSales from "../../data/onlineSales.json";
+// import onlineSales from "/Users/erica/Desktop/material-dashboard-react-master/src/data/onlineSales.json";
+import firebase from "../../firebase.js";
 
-const useStyles = makeStyles(styles);
-let totalSales = 0;
-let totalCustomers = 0;
-onlineSales.forEach(element => {
-  totalSales += element.sales;
-  totalCustomers += 1;
-});
-
-let ThirteenSale = 0;
-let FourteenSale = 0;
-let FifteenSale = 0;
-let SixteenSale = 0;
-let SeventeenSale = 0;
-
-onlineSales.forEach(element => {
-  switch (element.date.substr(element.date.length - 4)) {
-    case "2013":
-      ThirteenSale += 1;
-      break;
-    case "2014":
-      FourteenSale += 1;
-      break;
-    case "2015":
-      FifteenSale += 1;
-      break;
-    case "2016":
-      SixteenSale += 1;
-      break;
-    case "2017":
-      SeventeenSale += 1;
-      break;
+class Dashboard extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      items: []
+    };
   }
-});
+  componentDidMount() {
+    const itemsRef = firebase.database().ref("sales");
+    itemsRef.on("value", snapshot => {
+      const items = snapshot.val()["lKchbURB2toVit2dOiie"];
 
-let yearlyData = {
-  data: {
-    labels: ["2013", "2014", "2015", "2016", "2017"],
-    series: [
-      [ThirteenSale, FourteenSale, FifteenSale, SixteenSale, SeventeenSale]
-    ]
+      this.setState({
+        items
+      });
+    });
   }
-};
 
-export default function Dashboard() {
-  const classes = useStyles();
-  // console.log(onlineSales);
-  return (
-    <div>
-      <GridContainer>
-        <GridItem xs={12} sm={6} md={3}>
-          <Card>
-            <CardHeader color="warning" stats icon>
-              <CardIcon color="warning">
-                <Icon>content_copy</Icon>
-              </CardIcon>
-              <p className={classes.cardCategory}>Used Space</p>
-              <h3 className={classes.cardTitle}>
-                49/50 <small>GB</small>
-              </h3>
-            </CardHeader>
-            <CardFooter stats>
-              <div className={classes.stats}>
-                <Danger>
-                  <Warning />
-                </Danger>
-                <a href="#pablo" onClick={e => e.preventDefault()}>
-                  Get more space
-                </a>
-              </div>
-            </CardFooter>
-          </Card>
-        </GridItem>
-        <GridItem xs={12} sm={6} md={3}>
-          <Card>
-            <CardHeader color="success" stats icon>
-              <CardIcon color="success">
-                <Store />
-              </CardIcon>
-              <p className={classes.cardCategory}>Sales</p>
-              <h3 className={classes.cardTitle}>${Math.round(totalSales)}</h3>
-            </CardHeader>
-            <CardFooter stats>
-              <div className={classes.stats}>
-                <DateRange />
-                Last 24 Hours
-              </div>
-            </CardFooter>
-          </Card>
-        </GridItem>
-        <GridItem xs={12} sm={6} md={3}>
-          <Card>
-            <CardHeader color="danger" stats icon>
-              <CardIcon color="danger">
-                <Icon>info_outline</Icon>
-              </CardIcon>
-              <p className={classes.cardCategory}>Fixed Issues</p>
-              <h3 className={classes.cardTitle}>75</h3>
-            </CardHeader>
-            <CardFooter stats>
-              <div className={classes.stats}>
-                <LocalOffer />
-                Tracked from Github
-              </div>
-            </CardFooter>
-          </Card>
-        </GridItem>
-        <GridItem xs={12} sm={6} md={3}>
-          <Card>
-            <CardHeader color="info" stats icon>
-              <CardIcon color="info">
-                <Accessibility />
-              </CardIcon>
-              <p className={classes.cardCategory}>Total Customers</p>
-              <h3 className={classes.cardTitle}>{totalCustomers}</h3>
-            </CardHeader>
-            <CardFooter stats>
-              <div className={classes.stats}>
-                <Update />
-                Just Updated
-              </div>
-            </CardFooter>
-          </Card>
-        </GridItem>
-      </GridContainer>
-      <GridContainer>
-        <GridItem xs={12} sm={12} md={4}>
-          <Card chart>
-            <CardHeader color="success">
-              <ChartistGraph
-                className="ct-chart"
-                data={dailySalesChart.data}
-                type="Line"
-                options={dailySalesChart.options}
-                listener={dailySalesChart.animation}
-              />
-            </CardHeader>
-            <CardBody>
-              <h4 className={classes.cardTitle}>Daily Sales</h4>
-              <p className={classes.cardCategory}>
-                <span className={classes.successText}>
-                  <ArrowUpward className={classes.upArrowCardCategory} /> 55%
-                </span>{" "}
-                increase in today sales.
-              </p>
-            </CardBody>
-            <CardFooter chart>
-              <div className={classes.stats}>
-                <AccessTime /> updated 4 minutes ago
-              </div>
-            </CardFooter>
-          </Card>
-        </GridItem>
-        <GridItem xs={12} sm={12} md={4}>
-          <Card chart>
-            <CardHeader color="warning">
-              <ChartistGraph
-                className="ct-chart"
-                data={emailsSubscriptionChart.data}
-                type="Bar"
-                options={emailsSubscriptionChart.options}
-                responsiveOptions={emailsSubscriptionChart.responsiveOptions}
-                listener={emailsSubscriptionChart.animation}
-              />
-            </CardHeader>
-            <CardBody>
-              <h4 className={classes.cardTitle}>Email Subscriptions</h4>
-              <p className={classes.cardCategory}>Last Campaign Performance</p>
-            </CardBody>
-            <CardFooter chart>
-              <div className={classes.stats}>
-                <AccessTime /> campaign sent 2 days ago
-              </div>
-            </CardFooter>
-          </Card>
-        </GridItem>
-        <GridItem xs={12} sm={12} md={4}>
-          <Card chart>
-            <CardHeader color="danger">
-              <ChartistGraph
-                className="ct-chart"
-                data={yearlyData.data}
-                type="Line"
-                options={completedTasksChart.options}
-                listener={completedTasksChart.animation}
-              />
-            </CardHeader>
-            <CardBody>
-              <h4 className={classes.cardTitle}>Yearly Sales</h4>
-              <p className={classes.cardCategory}>
-                {" "}
-                <span className={classes.successText}>
-                  <ArrowUpward className={classes.upArrowCardCategory} /> 55%
-                </span>{" "}
-                increase in today sales.
-              </p>
-            </CardBody>
-            <CardFooter chart>
-              <div className={classes.stats}>
-                <AccessTime /> campaign sent 2 days ago
-              </div>
-            </CardFooter>
-          </Card>
-        </GridItem>
-      </GridContainer>
-      <GridContainer>
-        <GridItem xs={12} sm={12} md={6}>
-          <CustomTabs
-            title="Tasks:"
-            headerColor="primary"
-            tabs={[
-              {
-                tabName: "Bugs",
-                tabIcon: BugReport,
-                tabContent: (
-                  <Tasks
-                    checkedIndexes={[0, 3]}
-                    tasksIndexes={[0, 1, 2, 3]}
-                    tasks={bugs}
-                  />
-                )
-              },
-              {
-                tabName: "Website",
-                tabIcon: Code,
-                tabContent: (
-                  <Tasks
-                    checkedIndexes={[0]}
-                    tasksIndexes={[0, 1]}
-                    tasks={website}
-                  />
-                )
-              },
-              {
-                tabName: "Server",
-                tabIcon: Cloud,
-                tabContent: (
-                  <Tasks
-                    checkedIndexes={[1]}
-                    tasksIndexes={[0, 1, 2]}
-                    tasks={server}
-                  />
-                )
-              }
-            ]}
-          />
-        </GridItem>
-        <GridItem xs={12} sm={12} md={6}>
-          <Card>
-            <CardHeader color="warning">
-              <h4 className={classes.cardTitleWhite}>Employees Stats</h4>
-              <p className={classes.cardCategoryWhite}>
-                New employees on 15th September, 2016
-              </p>
-            </CardHeader>
-            <CardBody>
-              <Table
-                tableHeaderColor="warning"
-                tableHead={["ID", "Name", "Salary", "Country"]}
-                tableData={[
-                  ["1", "Dakota Rice", "$36,738", "Niger"],
-                  ["2", "Minerva Hooper", "$23,789", "Curaçao"],
-                  ["3", "Sage Rodriguez", "$56,142", "Netherlands"],
-                  ["4", "Philip Chaney", "$38,735", "Korea, South"]
-                ]}
-              />
-            </CardBody>
-          </Card>
-        </GridItem>
-      </GridContainer>
-    </div>
-  );
+  render() {
+    let totalSales = 0;
+    let totalCustomers = 0;
+    let ThirteenSale = 0;
+    let FourteenSale = 0;
+    let FifteenSale = 0;
+    let SixteenSale = 0;
+    let SeventeenSale = 0;
+
+    this.state.items.forEach(element => {
+      totalSales += element.sales;
+      totalCustomers += 1;
+      switch (element.date.substr(element.date.length - 4)) {
+        case "2013":
+          ThirteenSale += 1;
+          break;
+        case "2014":
+          FourteenSale += 1;
+          break;
+        case "2015":
+          FifteenSale += 1;
+          break;
+        case "2016":
+          SixteenSale += 1;
+          break;
+        case "2017":
+          SeventeenSale += 1;
+          break;
+      }
+    });
+    const yearlyData = {
+      data: {
+        labels: ["2013", "2014", "2015", "2016", "2017"],
+        series: [
+          [ThirteenSale, FourteenSale, FifteenSale, SixteenSale, SeventeenSale]
+        ]
+      }
+    };
+
+    const classes = makeStyles(styles);
+    return (
+      <div>
+        <GridContainer>
+          <GridItem xs={12} sm={6} md={3}>
+            <Card>
+              <CardHeader color="black" stats icon>
+                <CardIcon color="warning">
+                  <Icon>content_copy</Icon>
+                </CardIcon>
+                <p className={classes.cardCategory}>Used Space</p>
+                <h3 className={classes.cardTitle}>
+                  49/50 <small>GB</small>
+                </h3>
+              </CardHeader>
+              <CardFooter stats>
+                <div className={classes.stats}>
+                  <Danger>
+                    <Warning />
+                  </Danger>
+                  <a href="#pablo" onClick={e => e.preventDefault()}>
+                    Get more space
+                  </a>
+                </div>
+              </CardFooter>
+            </Card>
+          </GridItem>
+          <GridItem xs={12} sm={6} md={3}>
+            <Card>
+              <CardHeader color="success" stats icon>
+                <CardIcon color="success">
+                  <Store />
+                </CardIcon>
+                <p className={classes.cardCategory}>Sales</p>
+                <h3 className={classes.cardTitle}>${Math.round(totalSales)}</h3>
+              </CardHeader>
+              <CardFooter stats>
+                <div className={classes.stats}>
+                  <DateRange />
+                  Last 24 Hours
+                </div>
+              </CardFooter>
+            </Card>
+          </GridItem>
+          <GridItem xs={12} sm={6} md={3}>
+            <Card>
+              <CardHeader color="danger" stats icon>
+                <CardIcon color="danger">
+                  <Icon>info_outline</Icon>
+                </CardIcon>
+                <p className={classes.cardCategory}>Fixed Issues</p>
+                <h3 className={classes.cardTitle}>75</h3>
+              </CardHeader>
+              <CardFooter stats>
+                <div className={classes.stats}>
+                  <LocalOffer />
+                  Tracked from Github
+                </div>
+              </CardFooter>
+            </Card>
+          </GridItem>
+          <GridItem xs={12} sm={6} md={3}>
+            <Card>
+              <CardHeader color="info" stats icon>
+                <CardIcon color="info">
+                  <Accessibility />
+                </CardIcon>
+                <p className={classes.cardCategory}>Total Customers</p>
+                <h3 className={classes.cardTitle}>{totalCustomers}</h3>
+              </CardHeader>
+              <CardFooter stats>
+                <div className={classes.stats}>
+                  <Update />
+                  Just Updated
+                </div>
+              </CardFooter>
+            </Card>
+          </GridItem>
+        </GridContainer>
+        <GridContainer>
+          <GridItem xs={12} sm={12} md={4}>
+            <Card chart>
+              <CardHeader color="success">
+                <ChartistGraph
+                  className="ct-chart"
+                  data={dailySalesChart.data}
+                  type="Line"
+                  options={dailySalesChart.options}
+                  listener={dailySalesChart.animation}
+                />
+              </CardHeader>
+              <CardBody>
+                <h4 className={classes.cardTitle}>Daily Sales</h4>
+                <p className={classes.cardCategory}>
+                  <span className={classes.successText}>
+                    <ArrowUpward className={classes.upArrowCardCategory} /> 55%
+                  </span>{" "}
+                  increase in today sales.
+                </p>
+              </CardBody>
+              <CardFooter chart>
+                <div className={classes.stats}>
+                  <AccessTime /> updated 4 minutes ago
+                </div>
+              </CardFooter>
+            </Card>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <Card chart>
+              <CardHeader color="warning">
+                <ChartistGraph
+                  className="ct-chart"
+                  data={emailsSubscriptionChart.data}
+                  type="Bar"
+                  options={emailsSubscriptionChart.options}
+                  responsiveOptions={emailsSubscriptionChart.responsiveOptions}
+                  listener={emailsSubscriptionChart.animation}
+                />
+              </CardHeader>
+              <CardBody>
+                <h4 className={classes.cardTitle}>Email Subscriptions</h4>
+                <p className={classes.cardCategory}>
+                  Last Campaign Performance
+                </p>
+              </CardBody>
+              <CardFooter chart>
+                <div className={classes.stats}>
+                  <AccessTime /> campaign sent 2 days ago
+                </div>
+              </CardFooter>
+            </Card>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={4}>
+            <Card chart>
+              <CardHeader color="danger">
+                <ChartistGraph
+                  className="ct-chart"
+                  data={yearlyData.data}
+                  type="Line"
+                  options={completedTasksChart.options}
+                  listener={completedTasksChart.animation}
+                />
+              </CardHeader>
+              <CardBody>
+                <h4 className={classes.cardTitle}>Yearly Sales</h4>
+                <p className={classes.cardCategory}>
+                  {" "}
+                  <span className={classes.successText}>
+                    <ArrowUpward className={classes.upArrowCardCategory} /> 55%
+                  </span>{" "}
+                  increase in today sales.
+                </p>
+              </CardBody>
+              <CardFooter chart>
+                <div className={classes.stats}>
+                  <AccessTime /> campaign sent 2 days ago
+                </div>
+              </CardFooter>
+            </Card>
+          </GridItem>
+        </GridContainer>
+        <GridContainer>
+          <GridItem xs={12} sm={12} md={6}>
+            <CustomTabs
+              title="Tasks:"
+              headerColor="primary"
+              tabs={[
+                {
+                  tabName: "Bugs",
+                  tabIcon: BugReport,
+                  tabContent: (
+                    <Tasks
+                      checkedIndexes={[0, 3]}
+                      tasksIndexes={[0, 1, 2, 3]}
+                      tasks={bugs}
+                    />
+                  )
+                },
+                {
+                  tabName: "Website",
+                  tabIcon: Code,
+                  tabContent: (
+                    <Tasks
+                      checkedIndexes={[0]}
+                      tasksIndexes={[0, 1]}
+                      tasks={website}
+                    />
+                  )
+                },
+                {
+                  tabName: "Server",
+                  tabIcon: Cloud,
+                  tabContent: (
+                    <Tasks
+                      checkedIndexes={[1]}
+                      tasksIndexes={[0, 1, 2]}
+                      tasks={server}
+                    />
+                  )
+                }
+              ]}
+            />
+          </GridItem>
+          <GridItem xs={12} sm={12} md={6}>
+            <Card>
+              <CardHeader color="warning">
+                <h4 className={classes.cardTitleWhite}>Employees Stats</h4>
+                <p className={classes.cardCategoryWhite}>
+                  New employees on 15th September, 2016
+                </p>
+              </CardHeader>
+              <CardBody>
+                <Table
+                  tableHeaderColor="warning"
+                  tableHead={["ID", "Name", "Salary", "Country"]}
+                  tableData={[
+                    ["1", "Dakota Rice", "$36,738", "Niger"],
+                    ["2", "Minerva Hooper", "$23,789", "Curaçao"],
+                    ["3", "Sage Rodriguez", "$56,142", "Netherlands"],
+                    ["4", "Philip Chaney", "$38,735", "Korea, South"]
+                  ]}
+                />
+              </CardBody>
+            </Card>
+          </GridItem>
+        </GridContainer>
+      </div>
+    );
+  }
 }
+
+export default Dashboard;
