@@ -30,25 +30,10 @@ export default function DailySales(props) {
   var delays2 = 80,
     durations2 = 500;
   
-  //for option
-  let options = {
-    lineSmooth: Chartist.Interpolation.cardinal({
-      tension: 0
-    }),
-    low: 0,
-    high: 50, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
-    chartPadding: {
-      top: 0,
-      right: 0,
-      bottom: 0,
-      left: 0
-    }
-  };
   
   // for animation
   let animation = {
     draw: function(data) {
-      console.log(data.type)
       if (data.type === "line" || data.type === "area") {
         data.element.animate({
           d: {
@@ -78,50 +63,71 @@ export default function DailySales(props) {
   };
 
   let chartData;
+  let sales=[];
 
-  if(props.type == 'daily'){
+  if(props.type == 'Daily'){
     chartData = {
       labels: ["M", "T", "W", "T", "F", "S", "S"],
       series: [[12, 17, 7, 17, 23, 18, 38]]
     };
-  } else if(props.type == 'monthly'){
+  } else if(props.type == 'Monthly'){
 
-  } else if(props.type == 'yearly'){
+  } else if(props.type == 'Yearly'){
+
     let years=[];
-    let sales=[];
-    let ThirteenSale = 0;
-    let FourteenSale = 0;
-    let FifteenSale = 0;
-    let SixteenSale = 0;
-    let SeventeenSale = 0;
+  
+    for(let i = 0; i<21; i++){
+      years[i] = 2000 + i;
+      sales[i] = 0;
+    }
 
     props.data.forEach(element => {
-      switch (element.date.substr(element.date.length - 4)) {
-        case "2013":
-          ThirteenSale += 1;
-          break;
-        case "2014":
-          FourteenSale += 1;
-          break;
-        case "2015":
-          FifteenSale += 1;
-          break;
-        case "2016":
-          SixteenSale += 1;
-          break;
-        case "2017":
-          SeventeenSale += 1;
-          break;
-      }
+      let year = element.date.substr(element.date.length - 4);
+      sales[ year - 2000 ] += element.sales;
     });
 
-    let chartData = {
-      labels: ["2013", "2014", "2015", "2016", "2017"],
-      series: [
-          [ThirteenSale, FourteenSale, FifteenSale, SixteenSale, SeventeenSale]
-      ]
+    while(true)
+    {
+      if(sales[0] == 0){
+        console.log(years.shift());
+        sales.shift();
+      } else{
+        console.log("why " + sales);
+        break;
+      }
+    }
+
+    while(true)
+    {
+      if(sales[sales.length - 1] == 0){
+        console.log(years.pop());
+        sales.pop();
+      } else{
+        console.log("why " + sales);
+        break;
+      }
+    }
+    chartData = {
+      labels: years,
+      series: [ sales ]
     };
+    console.log(sales);
   }
+
+  //for option
+  let options = {
+    lineSmooth: Chartist.Interpolation.cardinal({
+      tension: 0
+    }),
+    low: Math.min(...sales) - (Math.max(...sales) - Math.min(...sales)) * 0.1,
+    high: Math.max(...sales) + (Math.max(...sales) - Math.min(...sales)) * 0.1, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
+    chartPadding: {
+      top: 0,
+      right: 0,
+      bottom: 0,
+      left: 0
+    }
+  };
 
   return (
     <Card chart>
@@ -135,7 +141,7 @@ export default function DailySales(props) {
         />
       </CardHeader>
       <CardBody>
-        <h4 className={classes.cardTitle}>Daily Sales</h4>
+        <h4 className={classes.cardTitle}>{props.type} Sales</h4>
         <p className={classes.cardCategory}>
           <span className={classes.successText}>
             <ArrowUpward className={classes.upArrowCardCategory} /> 55%

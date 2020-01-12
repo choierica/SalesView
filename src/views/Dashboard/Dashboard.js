@@ -31,6 +31,8 @@ import CardFooter from "components/Card/CardFooter.js";
 
 import { bugs, website, server } from "variables/general.js";
 
+import SalesChart from "backend/chartedData.js";
+
 import {
   dailySalesChart,
   emailsSubscriptionChart,
@@ -179,31 +181,7 @@ class Dashboard extends React.Component {
         </GridContainer>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
-            <Card chart>
-              <CardHeader color="success">
-                <ChartistGraph
-                  className="ct-chart"
-                  data={dailySalesChart.data}
-                  type="Line"
-                  options={dailySalesChart.options}
-                  listener={dailySalesChart.animation}
-                />
-              </CardHeader>
-              <CardBody>
-                <h4 className={classes.cardTitle}>Daily Sales</h4>
-                <p className={classes.cardCategory}>
-                  <span className={classes.successText}>
-                    <ArrowUpward className={classes.upArrowCardCategory} /> 55%
-                  </span>{" "}
-                  increase in today sales.
-                </p>
-              </CardBody>
-              <CardFooter chart>
-                <div className={classes.stats}>
-                  <AccessTime /> updated 4 minutes ago
-                </div>
-              </CardFooter>
-            </Card>
+            <SalesChart type="Daily" data={this.state.items}></SalesChart>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <Card chart>
@@ -231,76 +209,10 @@ class Dashboard extends React.Component {
             </Card>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
-            <Card chart>
-              <CardHeader color="danger">
-                <ChartistGraph
-                  className="ct-chart"
-                  data={yearlyData.data}
-                  type="Line"
-                  options={completedTasksChart.options}
-                  listener={completedTasksChart.animation}
-                />
-              </CardHeader>
-              <CardBody>
-                <h4 className={classes.cardTitle}>Yearly Sales</h4>
-                <p className={classes.cardCategory}>
-                  {" "}
-                  <span className={classes.successText}>
-                    <ArrowUpward className={classes.upArrowCardCategory} /> 55%
-                  </span>{" "}
-                  increase in today sales.
-                </p>
-              </CardBody>
-              <CardFooter chart>
-                <div className={classes.stats}>
-                  <AccessTime /> campaign sent 2 days ago
-                </div>
-              </CardFooter>
-            </Card>
+            <SalesChart type="Yearly" data={this.state.items}></SalesChart>
           </GridItem>
         </GridContainer>
         <GridContainer>
-          <GridItem xs={12} sm={12} md={6}>
-            <CustomTabs
-              title="Tasks:"
-              headerColor="primary"
-              tabs={[
-                {
-                  tabName: "Bugs",
-                  tabIcon: BugReport,
-                  tabContent: (
-                    <Tasks
-                      checkedIndexes={[0, 3]}
-                      tasksIndexes={[0, 1, 2, 3]}
-                      tasks={bugs}
-                    />
-                  )
-                },
-                {
-                  tabName: "Website",
-                  tabIcon: Code,
-                  tabContent: (
-                    <Tasks
-                      checkedIndexes={[0]}
-                      tasksIndexes={[0, 1]}
-                      tasks={website}
-                    />
-                  )
-                },
-                {
-                  tabName: "Server",
-                  tabIcon: Cloud,
-                  tabContent: (
-                    <Tasks
-                      checkedIndexes={[1]}
-                      tasksIndexes={[0, 1, 2]}
-                      tasks={server}
-                    />
-                  )
-                }
-              ]}
-            />
-          </GridItem>
           <GridItem xs={12} sm={12} md={6}>
             <Card>
               <CardHeader color="warning">
