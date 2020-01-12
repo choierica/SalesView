@@ -6,10 +6,21 @@ import {
   Marker
 } from "react-google-maps";
 
+let arr = [];
+for (let i = 0; i < 100; i++) {
+  let lat = Math.floor(Math.random() * (64.85694 - 19.50139 + 1)) - 19.50139;
+  let lng = Math.floor(Math.random() * (-68.01197 + 161.75583 + 1)) + 161.75583;
+
+  arr.push({
+    lat: lat,
+    lng: lng,
+  });
+}
+
 const CustomSkinMap = withScriptjs(
   withGoogleMap(() => (
     <GoogleMap
-      defaultZoom={13}
+      defaultZoom={5}
       defaultCenter={{ lat: 40.748817, lng: -73.985428 }}
       defaultOptions={{
         scrollwheel: false,
@@ -76,15 +87,20 @@ const CustomSkinMap = withScriptjs(
         ]
       }}
     >
-      <Marker position={{ lat: 40.748817, lng: -73.985428 }} />
+      {/* <Marker position={{ lat: 40.748817, lng: -73.985428 }} />
+      <Marker position={{ lat: 41.748817, lng: -73.985428 }} /> */}
+      {/* <Marker position={{ lat: 40.748817, lng: -73.985428 }} /> */}
+      {arr.map(x => {
+        return <Marker position={x} key={x.lat.toString()} />;
+      })}
     </GoogleMap>
   ))
 );
-
+window.abc = arr;
 export default function Maps() {
   return (
     <CustomSkinMap
-      googleMapURL="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"
+      googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxa289CnnjchNC4dEJvEBJxvyyVsRh_BQ"
       loadingElement={<div style={{ height: `100%` }} />}
       containerElement={<div style={{ height: `100vh` }} />}
       mapElement={<div style={{ height: `100%` }} />}
