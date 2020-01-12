@@ -181,35 +181,13 @@ class Dashboard extends React.Component {
         </GridContainer>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
-            <SalesChart type="Daily" data={this.state.items}></SalesChart>
+            <SalesChart type = "Daily" data = {this.state.items}></SalesChart>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
-            <Card chart>
-              <CardHeader color="warning">
-                <ChartistGraph
-                  className="ct-chart"
-                  data={emailsSubscriptionChart.data}
-                  type="Bar"
-                  options={emailsSubscriptionChart.options}
-                  responsiveOptions={emailsSubscriptionChart.responsiveOptions}
-                  listener={emailsSubscriptionChart.animation}
-                />
-              </CardHeader>
-              <CardBody>
-                <h4 className={classes.cardTitle}>Email Subscriptions</h4>
-                <p className={classes.cardCategory}>
-                  Last Campaign Performance
-                </p>
-              </CardBody>
-              <CardFooter chart>
-                <div className={classes.stats}>
-                  <AccessTime /> campaign sent 2 days ago
-                </div>
-              </CardFooter>
-            </Card>
+            <SalesChart type = "Monthly" data = {this.state.items}></SalesChart>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
-            <SalesChart type="Yearly" data={this.state.items}></SalesChart>
+            <SalesChart type = "Yearly" data = {this.state.items}></SalesChart>
           </GridItem>
         </GridContainer>
         <GridContainer>
