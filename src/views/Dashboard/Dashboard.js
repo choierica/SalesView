@@ -129,7 +129,7 @@ class Dashboard extends React.Component {
                 <CardIcon color="danger">
                   <Icon>info_outline</Icon>
                 </CardIcon>
-                <p className={classes.cardCategory}>Type of credit card</p>
+                <p className={classes.cardCategory}>Type of Credit Cards</p>
                 <h3 className={classes.cardTitle}>
                   {typeOfCredits}
                   <small>types</small>
