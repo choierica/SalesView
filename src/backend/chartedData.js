@@ -3,8 +3,6 @@ import React from "react";
 import ChartistGraph from "react-chartist";
 // @material-ui/icons
 import AccessTime from "@material-ui/icons/AccessTime";
-import Refresh from "@material-ui/icons/Refresh";
-import Edit from "@material-ui/icons/Edit";
 import Card from "components/Card/Card.js";
 import CardHeader from "components/Card/CardHeader.js";
 import CardIcon from "components/Card/CardIcon.js";
@@ -27,10 +25,95 @@ export default function DailySales(props) {
   var Chartist = require("chartist");
   var delays = 80,
     durations = 500;
-  var delays2 = 80,
-    durations2 = 500;
-  
-  
+
+  let chartData;
+  let sales=[];
+
+  if(props.type === 'Daily'){
+    let days = ["S", "M", "T", "W", "T", "F", "S"];
+    sales = [0, 0, 0, 0, 0, 0, 0];
+
+    props.data.forEach(element => {
+      sales[ (new Date(element.date)).getDay() ] += element.sales;
+    });
+
+    chartData = {
+      labels: days,
+      series: [sales]
+    };
+    
+  } else if(props.type === 'Monthly'){
+
+    let months = [];
+    for (let i = 0; i<12; i++){
+      months[i] = i + 1;
+      sales[i] = 0;
+    }
+
+    props.data.forEach(element => {
+      let month = (new Date(element.date)).getMonth() + 1;
+      sales[ month - 1 ] += element.sales;
+    });
+
+    chartData = {
+      labels: months,
+      series: [ sales ]
+    };
+
+  } else if(props.type === 'Yearly'){
+
+    let years=[];
+    for(let i = 0; i<21; i++){
+      years[i] = 2000 + i;
+      sales[i] = 0;
+    }
+
+    props.data.forEach(element => {
+      let year = (new Date(element.date)).getFullYear();
+      sales[ year - 2000 ] += element.sales;
+    });
+
+    while(true)
+    {
+      if(sales[0] == 0){
+        years.shift();
+        sales.shift();
+      } else{
+        break;
+      }
+    }
+
+    while(true)
+    {
+      if(sales[sales.length - 1] == 0){
+        years.pop();
+        sales.pop();
+      } else{
+        break;
+      }
+    }
+    chartData = {
+      labels: years,
+      series: [ sales ]
+    };
+  }
+
+  //for option
+  let options = {
+    lineSmooth: Chartist.Interpolation.cardinal({
+      tension: 0
+    }),
+    low: Math.min(...sales) - (Math.max(...sales) - Math.min(...sales)) * 0.1,
+    high: Math.max(...sales) + (Math.max(...sales) - Math.min(...sales)) * 0.1, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
+    chartPadding: {
+      top: 0,
+      right: 0,
+      bottom: 0,
+      left: 0
+    }
+  };
+
+
   // for animation
   let animation = {
     draw: function(data) {
@@ -62,76 +145,22 @@ export default function DailySales(props) {
     }
   };
 
-  let chartData;
-  let sales=[];
-
-  if(props.type == 'Daily'){
-    chartData = {
-      labels: ["M", "T", "W", "T", "F", "S", "S"],
-      series: [[12, 17, 7, 17, 23, 18, 38]]
-    };
-  } else if(props.type == 'Monthly'){
-
-  } else if(props.type == 'Yearly'){
-
-    let years=[];
-  
-    for(let i = 0; i<21; i++){
-      years[i] = 2000 + i;
-      sales[i] = 0;
-    }
-
-    props.data.forEach(element => {
-      let year = element.date.substr(element.date.length - 4);
-      sales[ year - 2000 ] += element.sales;
-    });
-
-    while(true)
-    {
-      if(sales[0] == 0){
-        console.log(years.shift());
-        sales.shift();
-      } else{
-        console.log("why " + sales);
-        break;
-      }
-    }
-
-    while(true)
-    {
-      if(sales[sales.length - 1] == 0){
-        console.log(years.pop());
-        sales.pop();
-      } else{
-        console.log("why " + sales);
-        break;
-      }
-    }
-    chartData = {
-      labels: years,
-      series: [ sales ]
-    };
-    console.log(sales);
+  let color;
+  let increase;
+  let diffPercent;
+  if ( sales[sales.length - 1] < sales[sales.length - 2]){
+    color = "warning";
+    increase = " Decreased";
+    diffPercent = (sales[sales.length - 2] - sales[sales.length - 1]) * 100 / sales[sales.length - 2];
+  } else{
+    color = "success";
+    increase = " Increased";
+    diffPercent = (sales[sales.length - 1] - sales[sales.length - 2]) * 100 / sales[sales.length - 1];
   }
-
-  //for option
-  let options = {
-    lineSmooth: Chartist.Interpolation.cardinal({
-      tension: 0
-    }),
-    low: Math.min(...sales) - (Math.max(...sales) - Math.min(...sales)) * 0.1,
-    high: Math.max(...sales) + (Math.max(...sales) - Math.min(...sales)) * 0.1, // creative tim: we recommend you to set the high sa the biggest value + something for a better look
-    chartPadding: {
-      top: 0,
-      right: 0,
-      bottom: 0,
-      left: 0
-    }
-  };
 
   return (
     <Card chart>
-      <CardHeader color="success">
+      <CardHeader color={color}>
         <ChartistGraph
           className="ct-chart"
           data={chartData}
@@ -144,9 +173,9 @@ export default function DailySales(props) {
         <h4 className={classes.cardTitle}>{props.type} Sales</h4>
         <p className={classes.cardCategory}>
           <span className={classes.successText}>
-            <ArrowUpward className={classes.upArrowCardCategory} /> 55%
+            <ArrowUpward className={classes.upArrowCardCategory} /> {Math.round(diffPercent)}%
           </span>
-          increase in today sales.
+          {increase} in {props.type} sales.
         </p>
       </CardBody>
       <CardFooter chart>
