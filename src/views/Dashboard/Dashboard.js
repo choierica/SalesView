@@ -38,7 +38,7 @@ import {
 } from "variables/charts.js";
 
 import styles from "assets/jss/material-dashboard-react/views/dashboardStyle.js";
-import onlineSales from "/Users/erica/Desktop/material-dashboard-react-master/src/data/onlineSales.json";
+import onlineSales from "../../data/onlineSales.json";
 
 const useStyles = makeStyles(styles);
 let totalSales = 0;

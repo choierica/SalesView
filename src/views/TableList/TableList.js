@@ -8,6 +8,11 @@ import Table from "components/Table/Table.js";
 import Card from "components/Card/Card.js";
 import CardHeader from "components/Card/CardHeader.js";
 import CardBody from "components/Card/CardBody.js";
+import CardIcon from "components/Card/CardIcon.js";
+import Icon from "@material-ui/core/Icon";
+import Danger from "components/Typography/Danger.js";
+import Warning from "@material-ui/icons/Warning";
+import CardFooter from "components/Card/CardFooter.js";
 
 const styles = {
   cardCategoryWhite: {
@@ -36,6 +41,9 @@ const styles = {
       fontWeight: "400",
       lineHeight: "1"
     }
+  },
+  cardTextBlack: {
+    color: "#000"
   }
 };
 
@@ -45,6 +53,32 @@ export default function TableList() {
   const classes = useStyles();
   return (
     <GridContainer>
+      <GridItem xs={12}>
+        <Card>
+          <CardHeader color="warning" stats icon>
+            <CardIcon color="warning">
+              <Icon>content_copy</Icon>
+            </CardIcon>
+            <p className={(classes.cardCategory, classes.cardTextBlack)}>
+              Upload your file
+            </p>
+            <h3 className={(classes.cardTitle, classes.cardTextBlack)}>
+              Online_sales.json
+            </h3>
+          </CardHeader>
+          <CardFooter stats>
+            <div className={classes.stats}>
+              <Danger>
+                <Warning />
+              </Danger>
+              <a href="#pablo" onClick={e => e.preventDefault()}>
+                Get more space
+              </a>
+            </div>
+          </CardFooter>
+        </Card>
+      </GridItem>
+
       <GridItem xs={12} sm={12} md={12}>
         <Card>
           <CardHeader color="primary">
