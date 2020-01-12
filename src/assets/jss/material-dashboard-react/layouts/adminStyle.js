@@ -8,8 +8,7 @@ const appStyle = theme => ({
   wrapper: {
     position: "relative",
     top: "0",
-    height: "100vh",
-    textAlign: "center"
+    height: "100vh"
   },
   mainPanel: {
     [theme.breakpoints.up("md")]: {
